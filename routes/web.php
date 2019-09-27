@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/juan', function () {
     return view('juan');
 });
+route::get("/holamundo",function(){
+    return view("holamundo");
+});
