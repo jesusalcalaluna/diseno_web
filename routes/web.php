@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/alcala', function () {
-    return view('alcala');
+
+route::get("/holamundo",function(){
+    return view("holamundo");
 });
