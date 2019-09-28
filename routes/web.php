@@ -21,3 +21,7 @@ Route::get('/juan', function () {
 route::get("/holamundo",function(){
     return view("holamundo");
 });
+
+route::get("/mario", function() {
+    return view("mario");
+});
