@@ -14,6 +14,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/juan', function () {
+    return view('juan');
+});
 route::get("/holamundo",function(){
     return view("holamundo");
+});
+
+route::get("/mario", function() {
+    return view("mario");
 });

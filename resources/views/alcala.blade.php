@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    PUG
+                    Alcala
                 </div>
 
                 <div class="links">
