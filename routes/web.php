@@ -24,3 +24,7 @@ route::get("/holamundo",function(){
 route::get("/mario", function() {
     return view("mario");
 });
+
+/////////////                     YouTube                      //////////////////
+
+route::get('/youtube', 'HomeController@verHome');
