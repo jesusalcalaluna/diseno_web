@@ -6,14 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="../resources/sass/youtube.css" rel="stylesheet"/>
     <title>YouTube</title>
   </head>
   <body>
     <div>
-      <div class="row">
-        <div class="col"></div>
-        <div class="col s1"><a class="waves-effect material-icons btn-transparent pulse">menu</a></div>
-      </div>
+      <center>
+        <div class="row">
+          <div class="col s1" id="container1"><a class="waves-effect material-icons btn-transparent pulse" id="menu">menu</a></div>
+          <div class="col s1" id="container2"><img class="left-align" id="logo" src="img/logo.png" alt=""/></div>
+          <div class="col s1 m1 hide-on-med-only" id="container3"></div>
+          <div class="col s8 hide-on-small-only" id="container4">
+            <div class="row">
+              <div class="input-field col m5">
+                <input id="search" type="search" placeholder="Search"/>
+              </div>
+              <div class="input-field col m2 pulse"><i class="waves-effect material-icons btn-gray" id="btnsearch">search</i></div>
+            </div>
+          </div>
+          <div class="col s2 hide-on-small-only" id="container5"></div>
+          <div class="col s5 l3" id="container6">
+            <div class="section">
+              <div class="col m4 s3 visible-on-small-only"><i class="material-icons" id="videocall">search</i></div>
+              <div class="col s3 m3"><i class="material-icons" id="videocall">video_call</i></div>
+              <div class="col s3 m3"><i class="material-icons" id="videocall">video_call</i></div>
+              <div class="col s3 m3"><i class="material-icons" id="videocall">video_call</i></div>
+            </div>
+          </div>
+        </div>
+      </center>
     </div>
     <p>Adiós</p>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

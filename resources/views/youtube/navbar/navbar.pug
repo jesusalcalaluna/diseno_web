@@ -1,14 +1,32 @@
 extends ../../../includes/template
 block content
     div
-        div(class="row")
-            div(class="col")
-            div(class="col s1")
-                a(class="waves-effect material-icons btn-transparent pulse") menu
+        center
+            div(class="row")
+                div#container1(class="col s1")
+                    a#menu(class="waves-effect material-icons btn-transparent pulse") menu
+                div#container2(class="col s1")
+                    img#logo(src="img/logo.png", alt="" class="left-align")
+                div#container3(class="col s1 m1 l2 xl2 hide-on-med-only")
 
-        //- a(class="waves-effect waves-light btn") button
-        //- - Let nombre = 'Montiel'
-        //- a(class="waves-effect waves-light btn") #{nombre}
-        //- p Yeah
+                div#container4(class="col hide-on-small-only")
+                    div(class="row")
+                        div(class="input-field col m8 l8 xl10")
+                            input#search(type="search" placeholder="Search")
+                        div(class="input-field col m2 pulse")
+                            i#btnsearch(class="waves-effect material-icons btn-gray") search
+                div#container5(class="col s2 m2 hide-on-med-down")
+
+                div#container6(class="col s3")
+                    .section
+                        div(class="col s3 m3 hide-on-med-and-up show-on-small")
+                            i#videocall(class="material-icons") search
+                        div(class="col s3 m3")
+                            i#videocall(class="material-icons") video_call
+                        div(class="col s3 m3")
+                            i#videocall(class="material-icons") video_call
+                        div(class="col s3 m3")
+                            i#videocall(class="material-icons hide-on-small-only") video_call
+                        div(class="col s3 m3")
+                            i#videocall(class="material-icons") video_call
 block footer
-    p Adiós
