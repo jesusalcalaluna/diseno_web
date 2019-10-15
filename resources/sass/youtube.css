@@ -22,13 +22,7 @@ body {
   position: absolute;
   right: 0;
   z-index: 0;
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-position: 0% 0%;
-  width: auto;
-  background-position-x: 0%;
-  flex-direction: row; }
+  width: auto; }
 
 #menu {
   color: darkgray;
@@ -48,11 +42,14 @@ body {
   border-left: 0.5px solid #bdbdbd;
   border-radius: 2px;
   padding: 0 0 0 15px;
-  font-size: 17px; }
+  font-size: 17px;
+  margin-left: 50px;
+  padding-right: 15px; }
 
 #search::placeholder {
   color: black;
-  font-size: Arial; }
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
 #btnsearch {
   background-color: #f5f5f5;
@@ -61,15 +58,23 @@ body {
   border-bottom: 0.5px solid #bdbdbd;
   border-left: 0.5px solid #bdbdbd;
   color: gray;
-  width: 100%;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 27.5px;
   margin-left: 15px; }
+
+.material-icons.search {
+  font-size: 18px;
+  padding-top: 5%; }
 
 #videocall {
   color: gray; }
 
-#perfil {
-  height: 45px;
-  color: gray; }
+.material-icons.perfil {
+  font-size: 35px;
+  color: blue;
+  margin-top: -6px;
+  margin-right: 25px; }
 
 /*# sourceMappingURL=youtube.css.map */
