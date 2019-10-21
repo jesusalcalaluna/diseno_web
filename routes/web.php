@@ -27,4 +27,6 @@ route::get("/mario", function() {
 
 /////////////                     YouTube                      //////////////////
 
+route::get('/login', 'loginController@viewLogin');
+
 route::get('/youtube', 'HomeController@verHome');
