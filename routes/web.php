@@ -29,4 +29,6 @@ route::get("/mario", function() {
 
 route::get('/login', 'loginController@viewLogin');
 
+route::get('/register', 'formRegisterController@viewFormRegister');
+
 route::get('/youtube', 'HomeController@verHome');

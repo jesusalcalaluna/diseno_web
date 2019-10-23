@@ -126,9 +126,8 @@ position-fixed {
 
 #containerlogin {
   width: auto;
-  margin-top: 100px;
+  margin-top: 60px;
   padding: 5px 0 0 5px;
-  height: 550px;
   width: 500px;
   left: 0;
   top: 0;
@@ -186,8 +185,8 @@ position-fixed {
   -webkit-transform-origin: 6.6px center 0px;
           transform-origin: 6.6px center 0px;
   float: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #emailforgot {
@@ -218,7 +217,6 @@ position-fixed {
 #labelinput {
   padding: 5px 0 0 5px;
   height: 140px;
-  width: 500px;
   left: 68;
   top: 20;
   font-size: 18px;
@@ -237,7 +235,6 @@ position-fixed {
   width: auto;
   margin-top: 10px;
   padding: 5px 0 0 5px;
-  height: 550px;
   width: 500px;
 }
 
@@ -253,7 +250,7 @@ position-fixed {
   #containerlogin {
     margin-top: 0px;
     top: 0;
-    width: auto;
+    width: 100%;
     border: none;
     margin-right: 25px;
   }
@@ -276,13 +273,14 @@ position-fixed {
     font-size: 14px;
   }
   #labelinput {
-    width: 170px;
+    width: 160px;
     margin-left: -30px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }
   #txt4 {
+    margin-top: 20%;
     margin-left: 20px;
     width: 90%;
   }
@@ -290,13 +288,207 @@ position-fixed {
     margin-left: 5px;
   }
   #txt7 {
-    margin-right: 5px;
+    margin-left: -10px;
   }
   .footer {
+    margin-top: 50px;
     margin-left: 20px;
   }
+  .footer2 {
+    margin-top: -5px;
+  }
   .footer3 {
+    margin-left: -10px !important;
+    margin-top: 10px;
+  }
+}
+
+#containeregister {
+  margin-top: 75px;
+  padding: 5px 0 0 5px;
+  width: 820px;
+  left: 0;
+  top: 0;
+  border-color: #aaaaaa;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 7px;
+  padding-bottom: 55px;
+}
+
+#google {
+  height: 40px;
+  padding-top: 5%;
+}
+
+#logogoogleregister {
+  height: 27px;
+  float: left;
+  margin-left: 40px;
+}
+
+#txtContainer1 {
+  height: 50px;
+  margin-top: 2%;
+  font-size: 28px;
+  text-align: left;
+}
+
+#txt1 {
+  margin-left: 40px;
+}
+
+#txtContainer2 {
+  height: 40px;
+  font-size: 17px;
+  text-align: left;
+}
+
+#txt2 {
+  margin-left: 40px;
+}
+
+#txt4 {
+  text-align: left;
+  margin-left: 45px;
+  margin-top: 10%;
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+#txt6 {
+  float: left;
+  margin-left: 35px;
+  font-size: 17px;
+}
+
+#nombre_input {
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform-origin: 6.6px center 0px;
+          transform-origin: 6.6px center 0px;
+  border-top: .8px solid gray;
+  border-right: .8px solid gray;
+  border-bottom: .8px solid gray;
+  border-left: .8px solid gray;
+  height: 45px;
+}
+
+#nombre:focus {
+  border-top: .10px solid #0059ffec;
+  border-right: .10px solid #0059ffec;
+  border-bottom: .10px solid #0059ffec;
+  border-left: .10px solid #0059ffec;
+}
+
+#labelnombre {
+  padding: 5px 0 0 5px;
+  left: 40;
+  top: 18;
+  font-size: 15px;
+  margin-left: -20px;
+  font-family: sans-serif;
+}
+
+#apellido_input {
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform-origin: 6.6px center 0px;
+          transform-origin: 6.6px center 0px;
+  border-top: .8px solid gray;
+  border-right: .8px solid gray;
+  border-bottom: .8px solid gray;
+  border-left: .8px solid gray;
+  height: 45px;
+}
+
+#apellido:focus {
+  border-top: .10px solid #0059ffec;
+  border-right: .10px solid #0059ffec;
+  border-bottom: .10px solid #0059ffec;
+  border-left: .10px solid #0059ffec;
+}
+
+#labelapellido {
+  padding: 5px 0 0 5px;
+  left: 40;
+  top: 18;
+  font-size: 15px;
+  margin-left: -20px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+  #containeregister {
+    margin-top: 0px;
+    padding: 5px 0 0 5px;
+    width: 501.5px;
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+    padding-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #containeregister {
+    margin-top: 0px;
+    top: 0;
+    width: 100%;
+    border: none;
+    margin-right: 25px;
+  }
+  .footer {
+    width: 90%;
+    margin-left: 45px;
+  }
+  .footer2 {
+    width: auto;
+    margin-left: 45px;
+  }
+  #dropdown2 {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #emailforgot {
     margin-left: 20px;
+    font-size: 14px;
+  }
+  #labelinput {
+    width: 160px;
+    margin-left: -30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  #txt4 {
+    margin-top: 20%;
+    margin-left: 20px;
+    width: 90%;
+  }
+  #txt6 {
+    margin-left: 5px;
+  }
+  #txt7 {
+    margin-left: -10px;
+  }
+  .footer {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .footer2 {
+    margin-top: -5px;
+  }
+  .footer3 {
+    margin-left: -10px !important;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=youtube.css.map */

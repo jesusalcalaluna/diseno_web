@@ -1,0 +1,83 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        //- Compiled and minified CSS
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+        //- Import Google Icon Font
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+        //- CSS
+        link(href="../resources/sass/youtube.css" rel="stylesheet")
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        title YouTube
+    body
+        center
+            .container#containeregister(class="col s12 m6")
+                .row
+                    .container#google(class="col s12")
+                        img#logogoogleregister(src="img/google.png", alt="")
+                    .containerdiv#txtContainer1(class="col s12")
+                        p#txt1 Crear tu cuenta de Google
+                    .container#txtContainer2(class="col s12") 
+                        p#txt2 Acceder a YouTube
+                    .container(class="col s12")
+                        .container#nombre(class="input-field col s3")
+                            label#labelnombre(for="nombre_input" class="labelnombre") Nombre
+                            input(id="nombre_input" type="email" class="validate section")
+                            .container#apellido(class="input-field col s12")
+                                label#labelapellido(for="apellido_input") Apellido
+                                input(id="apellido_input" type="email" class="validate section")
+                        .container#correo(class="input-field col s3")
+                            label#labelinput(for="correo_input") Tu dirección de correo electrónico
+                            input(id="correo_input" type="email" class="validate section")
+                        .container(class="col s6")
+                            img#google_protect(src="img/google_protect.png", alt="")
+                    .container(class="col s12")
+                        b 
+                            a#emailforgot(href="#") ¿Olvidaste tu correo electrónico?
+                    .container(class="col s12")
+                        p#txt4 ¿Esta no es tu computadora? Usa una ventana privada para acceder 
+                            a#txt5(href="#") Más información
+                    .container#buttons(class="col s12")
+                        .container(class="col s7")
+                            a#txt6(href="#") Crear cuenta
+                        .container(class="col s5")
+                            button#txt7(class="btn") Siguiente
+        .container(class="footer col s12")
+            .row
+                .container(class="footer2 col s11 m6")
+                    ul(id="dropdown2" class="dropdown-content")
+                        li
+                            a(href="#!") asdf
+                                span(class="badge")
+                        li
+                            a(href="#!")
+                                span(class="badge")
+                        li
+                            a(href="#!")
+                                span(class="badge")
+                    a(class="dropdown-trigger" href="#!" data-target="dropdown2") Español (Latinoamerica)
+                        i#dropdown2btn(class="material-icons right") arrow_drop_down
+                
+                .container(class="footer3 col s12 m6")
+                
+                    a#txt8(class="col s3") Ayuda
+
+                    a#txt9(class="col s4") Privacidad
+
+                    a#txt10(class="col s3") Condiciones
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        script.
+            var widthBrowser = window.outerWidth;
+            var heightBrowser = window.outerHeight;
+            console.log("Tamaño de la pantalla del navegador: width=" + widthBrowser + ", height=" + heightBrowser);
+            $('.dropdown-trigger').dropdown();
+         
