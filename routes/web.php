@@ -10,9 +10,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@verHome');
 
 Route::get('/juan', function () {
     return view('juan');
@@ -31,4 +29,4 @@ route::get('/login', 'loginController@viewLogin');
 
 route::get('/register', 'formRegisterController@viewFormRegister');
 
-route::get('/youtube', 'HomeController@verHome');
+// route::get('/youtube', 'HomeController@verHome');
