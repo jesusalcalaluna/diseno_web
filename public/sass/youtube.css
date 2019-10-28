@@ -126,7 +126,7 @@ position-fixed {
 
 #containerlogin {
   width: auto;
-  margin-top: 60px;
+  margin-top: 100px;
   padding: 5px 0 0 5px;
   width: 500px;
   left: 0;
@@ -148,16 +148,24 @@ position-fixed {
 
 #logogoogle {
   height: 27px;
+  margin-top: 5%;
+}
+
+#containertxt1 {
+  height: 50px;
+  margin-top: 1%;
 }
 
 #txt1 {
-  margin-top: 2%;
   font-size: 28px;
+  text-align: center;
+  margin-top: 8%;
 }
 
 #txt2 {
-  margin-top: 2%;
+  margin-top: 8%;
   font-size: 17px;
+  text-align: center;
 }
 
 #txt4 {
@@ -175,6 +183,13 @@ position-fixed {
 }
 
 #user {
+  margin-top: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90%;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
   border-top: .8px solid gray;
   border-right: .8px solid gray;
   border-bottom: .8px solid gray;
@@ -197,28 +212,19 @@ position-fixed {
   font-family: sans-serif;
 }
 
-#user {
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  left: 0;
-  right: 0;
-  border-radius: 5px;
-}
-
 #user:focus {
   border-top: .10px solid #0059ffec;
   border-right: .10px solid #0059ffec;
   border-bottom: .10px solid #0059ffec;
   border-left: .10px solid #0059ffec;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 #labelinput {
   padding: 5px 0 0 5px;
   height: 140px;
-  left: 68;
-  top: 20;
+  left: 60;
+  top: 10;
   font-size: 18px;
   font-family: sans-serif;
 }
@@ -304,7 +310,7 @@ position-fixed {
 }
 
 #containeregister {
-  margin-top: 75px;
+  margin-top: 70px;
   padding: 5px 0 0 5px;
   width: 820px;
   left: 0;
@@ -316,7 +322,7 @@ position-fixed {
   padding-bottom: 55px;
 }
 
-#google {
+#googleregister {
   height: 40px;
   padding-top: 5%;
 }
@@ -327,24 +333,25 @@ position-fixed {
   margin-left: 40px;
 }
 
-#txtContainer1 {
+#txtContainer1register {
   height: 50px;
-  margin-top: 2%;
+  margin-top: 1%;
   font-size: 28px;
   text-align: left;
 }
 
-#txt1 {
+#txt1register {
   margin-left: 40px;
 }
 
-#txtContainer2 {
+#txtContainer2register {
   height: 40px;
+  margin-top: 1%;
   font-size: 17px;
   text-align: left;
 }
 
-#txt2 {
+#txt2register {
   margin-left: 40px;
 }
 
@@ -362,7 +369,12 @@ position-fixed {
   font-size: 17px;
 }
 
-#nombre_input {
+#nombreregister {
+  margin-left: 25px;
+}
+
+#nombre_input_register {
+  width: 100% !important;
   margin-top: 20px;
   left: 0;
   right: 0;
@@ -373,17 +385,53 @@ position-fixed {
   border-right: .8px solid gray;
   border-bottom: .8px solid gray;
   border-left: .8px solid gray;
-  height: 45px;
+  height: 35px;
 }
 
-#nombre:focus {
+#nombreregister:focus {
   border-top: .10px solid #0059ffec;
   border-right: .10px solid #0059ffec;
   border-bottom: .10px solid #0059ffec;
   border-left: .10px solid #0059ffec;
 }
 
-#labelnombre {
+#labelnombreregister {
+  padding: 5px 0 0 5px;
+  left: 40;
+  top: 15;
+  font-size: 15px;
+  margin-left: -20px;
+  font-family: sans-serif;
+}
+
+#apellidoregister {
+  margin-left: 25px;
+  width: 100% !important;
+}
+
+#apellido_input_register {
+  width: 100% !important;
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform-origin: 6.6px center 0px;
+          transform-origin: 6.6px center 0px;
+  border-top: .8px solid gray;
+  border-right: .8px solid gray;
+  border-bottom: .8px solid gray;
+  border-left: .8px solid gray;
+  height: 35px;
+}
+
+#apellido_input_register:focus {
+  border-top: .10px solid #0059ffec;
+  border-right: .10px solid #0059ffec;
+  border-bottom: .10px solid #0059ffec;
+  border-left: .10px solid #0059ffec;
+}
+
+#labelapellidoregister {
   padding: 5px 0 0 5px;
   left: 40;
   top: 18;
@@ -424,7 +472,7 @@ position-fixed {
 
 @media screen and (max-width: 980px) {
   #containeregister {
-    margin-top: 0px;
+    margin-top: 35px;
     padding: 5px 0 0 5px;
     width: 501.5px;
     border-color: #aaaaaa;
@@ -432,6 +480,19 @@ position-fixed {
     border-style: solid;
     border-radius: 7px;
     padding-bottom: 55px;
+  }
+  #nombreregister {
+    width: 50% !important;
+  }
+  #apellidoregister {
+    width: 105% !important;
+  }
+  #apellido_input_register {
+    width: 105% !important;
+    margin-left: -65px;
+  }
+  #google_protect {
+    display: none;
   }
 }
 

@@ -8,7 +8,7 @@ html(lang="en")
         //- Import Google Icon Font
         link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
         //- CSS
-        link(href="../resources/sass/youtube.css" rel="stylesheet")
+        link(href="sass/youtube.css" rel="stylesheet")
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -19,22 +19,22 @@ html(lang="en")
         center
             .container#containeregister(class="col s12 m6")
                 .row
-                    .container#google(class="col s12")
+                    .container#googleregister(class="col s12")
                         img#logogoogleregister(src="img/google.png", alt="")
-                    .containerdiv#txtContainer1(class="col s12")
-                        p#txt1 Crear tu cuenta de Google
-                    .container#txtContainer2(class="col s12") 
-                        p#txt2 Acceder a YouTube
+                    .containerdiv#txtContainer1register(class="col s12")
+                        p#txt1register Crear tu cuenta de Google
+                    .container#txtContainer2register(class="col s12") 
+                        p#txt2register Acceder a YouTube
                     .container(class="col s12")
-                        .container#nombre(class="input-field col s3")
-                            label#labelnombre(for="nombre_input" class="labelnombre") Nombre
-                            input(id="nombre_input" type="email" class="validate section")
-                            .container#apellido(class="input-field col s12")
-                                label#labelapellido(for="apellido_input") Apellido
-                                input(id="apellido_input" type="email" class="validate section")
-                        .container#correo(class="input-field col s3")
-                            label#labelinput(for="correo_input") Tu dirección de correo electrónico
-                            input(id="correo_input" type="email" class="validate section")
+                        .container#nombreregister(class="input-field col s3")
+                            label#labelnombreregister(for="nombre_input_register" class="labelnombre") Nombre
+                            input(id="nombre_input_register" type="email" class="validate section")
+                            .container#apellidoregister(class="input-field col s12")
+                                label#labelapellidoregister(for="apellido_input_register") Apellido
+                                input(id="apellido_input_register" type="email" class="validate section")
+                        .container#correoregister(class="input-field col s3")
+                            label#labelinputregister(for="correo_input_register") Tu dirección de correo electrónico
+                            input(id="correo_input_register" type="email" class="validate section")
                         .container(class="col s6")
                             img#google_protect(src="img/google_protect.png", alt="")
                     .container(class="col s12")
