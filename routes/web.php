@@ -19,6 +19,8 @@ route::get("/holamundo",function(){
     return view("holamundo");
 });
 
+
+
 route::get("/mario", function() {
     return view("mario");
 });
@@ -30,3 +32,8 @@ route::get('/login', 'loginController@viewLogin');
 route::get('/register', 'formRegisterController@viewFormRegister');
 
 // route::get('/youtube', 'HomeController@verHome');
+
+
+
+// vistas del johnny
+Route::get('/reproducirvideo', 'HomeController@reproducirvideo');
