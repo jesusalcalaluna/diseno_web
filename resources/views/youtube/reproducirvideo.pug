@@ -1,0 +1,58 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        //- Compiled and minified CSS
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+        //- Import Google Icon Font
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+        //- CSS
+        link(href="sass/youtube.css" rel="stylesheet")
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        title YouTube
+    body
+        //- navbar
+        div
+        center
+            div(class="row")
+                div#container1(class="col s1")
+                    a#menu(class="waves-effect material-icons btn-transparent pulse") menu
+                div#container2(class="col s2")
+                    img#logo(src="img/logo.png", alt="" class="left-align")
+                div#container3(class="col s2 m2 l3 xl3 hide-on-med-only")
+
+                div#container4(class="col hide-on-small-only")
+                    div(class="row")
+                        div(class="input-field col m6 l7 xl9")
+                            input#search(type="search" placeholder="Search")
+                        div(class="input-field col m2 pulse")
+                            i#btnsearch(class="waves-effect material-icons btn-gray search") search
+                div#container5(class="colm2 hide-on-med-down")
+
+                div#container6(class="col s3")
+                    .section
+                        div(class="col s2 m3 hide-on-med-and-up show-on-small")
+                            a#videocall(class="material-icons" href="#") search
+                        div(class="col s2 m3 xl2")
+                            a#videocall(class="material-icons" href="#") video_call
+                        div(class="col s2 m3 xl2")
+                            a#videocall(class="material-icons" href="#") blur_on
+                        div(class="col s2 m3 hide-on-small-only xl3")
+                            a#videocall(class="material-icons" href="#") notifications
+                        div(class="col s2 m2")
+                            a#perfil(class="material-icons perfil") account_circle
+
+        //- video
+        div(class="row")
+            div(class="col s1")
+            div(class="col s7")
+                center
+                    video(class="responsive-video" controls)
+                        source(src="img/videoplayback.mp4" type="video/mp4")
+            div(class="col s1")
+                p hola
