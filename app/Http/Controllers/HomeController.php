@@ -9,4 +9,8 @@ class HomeController extends Controller
     function verHome(){
         return view("youtube/home");
     }
+
+    function reproducirvideo(){
+    	return view("youtube/reproducirvideo");
+    }
 }
