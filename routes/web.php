@@ -37,3 +37,6 @@ route::get('/register', 'formRegisterController@viewFormRegister');
 
 // vistas del johnny
 Route::get('/reproducirvideo', 'HomeController@reproducirvideo');
+
+//vistas del Alcala
+Route:get('/videosgustados',):
