@@ -310,9 +310,10 @@ position-fixed {
 }
 
 #containeregister {
-  margin-top: 70px;
+  margin-top: 100px;
+  height: 550px;
   padding: 5px 0 0 5px;
-  width: 820px;
+  width: 735px;
   left: 0;
   top: 0;
   border-color: #aaaaaa;
@@ -374,7 +375,7 @@ position-fixed {
 }
 
 #nombre_input_register {
-  width: 100% !important;
+  width: 110% !important;
   margin-top: 20px;
   left: 0;
   right: 0;
@@ -398,15 +399,14 @@ position-fixed {
 #labelnombreregister {
   padding: 5px 0 0 5px;
   left: 40;
-  top: 15;
+  top: 13;
   font-size: 15px;
   margin-left: -20px;
   font-family: sans-serif;
 }
 
 #apellidoregister {
-  margin-left: 25px;
-  width: 100% !important;
+  width: 29% !important;
 }
 
 #apellido_input_register {
@@ -434,7 +434,7 @@ position-fixed {
 #labelapellidoregister {
   padding: 5px 0 0 5px;
   left: 40;
-  top: 18;
+  top: 14;
   font-size: 15px;
   margin-left: -20px;
   font-family: sans-serif;
@@ -451,7 +451,7 @@ position-fixed {
   border-right: .8px solid gray;
   border-bottom: .8px solid gray;
   border-left: .8px solid gray;
-  height: 45px;
+  height: 35px;
 }
 
 #apellido:focus {
@@ -470,11 +470,134 @@ position-fixed {
   font-family: sans-serif;
 }
 
+#correoregister {
+  width: 244.1% !important;
+}
+
+#correo_input_register {
+  width: 101%;
+  margin-left: -18px;
+  margin-top: 0px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform-origin: 6.6px center 0px;
+          transform-origin: 6.6px center 0px;
+  border-top: .8px solid gray;
+  border-right: .8px solid gray;
+  border-bottom: .8px solid gray;
+  border-left: .8px solid gray;
+  height: 35px;
+}
+
+#txt3register {
+  margin-top: -130px;
+}
+
+#txt3register_p {
+  font-size: 13px;
+  float: left;
+  margin-left: 35px;
+}
+
+#txt4register {
+  margin-top: -92px;
+}
+
+#txt4register_a {
+  font-size: 15px;
+  float: left;
+  margin-left: 35px;
+}
+
+#contrasenaregister {
+  margin-left: 30px;
+}
+
+#google_protect {
+  height: 250px;
+  margin-top: -90px;
+  margin-left: 230px;
+}
+
+#container_contrasena_register {
+  margin-top: -70px;
+  margin-left: 14px;
+}
+
+#contrasena_input_register {
+  width: 120%;
+  margin-left: -18px;
+  margin-top: 0px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform-origin: 6.6px center 0px;
+          transform-origin: 6.6px center 0px;
+  border-top: .8px solid gray;
+  border-right: .8px solid gray;
+  border-bottom: .8px solid gray;
+  border-left: .8px solid gray;
+  height: 35px;
+}
+
+#confirmar_input_register {
+  width: 120%;
+  margin-left: -8px;
+  margin-top: 0px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform-origin: 6.6px center 0px;
+          transform-origin: 6.6px center 0px;
+  border-top: .8px solid gray;
+  border-right: .8px solid gray;
+  border-bottom: .8px solid gray;
+  border-left: .8px solid gray;
+  height: 35px;
+}
+
+#txt5register {
+  margin-top: -30px;
+  margin-left: 35px;
+}
+
+#txt5register_p {
+  text-align: left;
+  font-size: 13px;
+}
+
+#buttons_register {
+  margin-top: 25px;
+  margin-left: -68px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer2 {
+  margin-left: 30px;
+}
+
+.trigger_registrar {
+  margin-left: -250px;
+}
+
+.trigger_registrar_right {
+  margin-left: -220px;
+  float: left;
+}
+
+#btnregister {
+  margin-left: -50px;
+}
+
 @media screen and (max-width: 980px) {
   #containeregister {
-    margin-top: 35px;
+    margin-top: 100px;
     padding: 5px 0 0 5px;
-    width: 501.5px;
+    width: 450px;
     border-color: #aaaaaa;
     border-width: 1px;
     border-style: solid;
@@ -482,17 +605,128 @@ position-fixed {
     padding-bottom: 55px;
   }
   #nombreregister {
-    width: 50% !important;
+    width: 40% !important;
+  }
+  #labelnombreregister {
+    top: 19;
   }
   #apellidoregister {
-    width: 105% !important;
+    margin-top: 14px;
+    margin-left: 50px;
+    width: 40% !important;
   }
   #apellido_input_register {
     width: 105% !important;
     margin-left: -65px;
   }
+  #labelapellidoregister {
+    padding: 5px 0 0 5px;
+    left: 5;
+    top: 18;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  #correoregister {
+    width: 240% !important;
+  }
+  #txt3register {
+    margin-top: -45px;
+  }
+  #txt4register {
+    margin-top: -10px;
+  }
+  #container_contrasena_register {
+    margin-top: 10px;
+  }
+  #contrasenaregister {
+    width: 70% !important;
+  }
+  #confirmaregister {
+    width: 70% !important;
+    margin-top: -59px;
+    margin-left: 190px;
+  }
+  #txt5register {
+    width: 70% !important;
+  }
+  #buttons_register {
+    margin-left: 5px;
+  }
+  #btnregister {
+    margin-left: 10px;
+  }
+  .trigger_registrar {
+    margin-left: 0px;
+  }
   #google_protect {
     display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #containeregister {
+    margin-left: -15px;
+    margin: 0;
+    padding: 0;
+  }
+  #txt1register {
+    font-size: 23px;
+  }
+  #txtContainer2register {
+    margin-top: 25px;
+  }
+  #nombreregister {
+    width: 90% !important;
+  }
+  #nombre_input_register {
+    width: 100% !important;
+  }
+  #apellidoregister {
+    margin-top: -150px;
+    margin-left: 58px;
+    width: 90% !important;
+  }
+  #apellido_input_register {
+    width: 100% !important;
+  }
+  #correoregister {
+    margin-top: 70px;
+    margin-left: 8px;
+    width: 100.5% !important;
+  }
+  #correo_input_register {
+    width: 103% !important;
+  }
+  #contrasenaregister {
+    width: 140% !important;
+  }
+  #confirmaregister {
+    margin-top: 55px;
+    margin-left: 20px;
+    width: 140% !important;
+  }
+  #txt3register_p {
+    text-align: left;
+    font-size: 12px;
+  }
+  #txt4register_a {
+    font-size: 14px;
+  }
+  #txt5register {
+    margin-top: -140px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #txt6register {
+    margin-top: 50px;
+    float: center;
+  }
+  #btnregister {
+    margin-left: -30px;
+  }
+  .footer2 {
+    margin-top: 25px !important;
   }
 }
 
