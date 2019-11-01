@@ -31,9 +31,14 @@ route::get('/login', 'loginController@viewLogin');
 
 route::get('/register', 'formRegisterController@viewFormRegister');
 
+route::get('/suscripciones_pagos', 'suscripcionesController@verSuscripciones');
+
 // route::get('/youtube', 'HomeController@verHome');
 
 
 
 // vistas del johnny
 Route::get('/reproducirvideo', 'HomeController@reproducirvideo');
+
+//vistas del Alcala
+//Route:get('/videosgustados',):

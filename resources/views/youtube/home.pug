@@ -1,73 +1,73 @@
+include componentes_pug/header
+include componentes_pug/navbar
+
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        //- Compiled and minified CSS
-        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
-        //- Import Google Icon Font
-        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
-        //- CSS
-        link(href="sass/youtube.css" rel="stylesheet")
+  +header_component
 
-        title YouTube
-    body
-        //- NAV BAR
-        div
-        center
-            div(class="row")
-                div#container1(class="col s1")
-                    a#menu(class="waves-effect material-icons btn-transparent pulse") menu
-                div#container2(class="col s2")
-                    img#logo(src="img/logo.png", alt="" class="left-align")
-                div#container3(class="col s2 m2 l3 xl3 hide-on-med-only")
+  body
 
-                div#container4(class="col hide-on-small-only")
-                    div(class="row")
-                        div(class="input-field col m6 l7 xl9")
-                            input#search(type="search" placeholder="Search")
-                        div(class="input-field col m2 pulse")
-                            i#btnsearch(class="waves-effect material-icons btn-gray search") search
-                div#container5(class="colm2 hide-on-med-down")
+    +navbar_component
 
-                div#container6(class="col s3")
-                    .section
-                        div(class="col s2 m3 hide-on-med-and-up show-on-small")
-                            a#videocall(class="material-icons" href="#") search
-                        div(class="col s2 m3 xl2")
-                            a#videocall(class="material-icons" href="#") video_call
-                        div(class="col s2 m3 xl2")
-                            a#videocall(class="material-icons" href="#") blur_on
-                        div(class="col s2 m3 hide-on-small-only xl3")
-                            a#videocall(class="material-icons" href="#") notifications
-                        div(class="col s2 m2")
-                            a#perfil(class="material-icons perfil") account_circle
+    //- SIDEBAR
+    //- div
+    //-     center
+    //-         div(class="row")
+    //-             div#container1(class="col s1")
+    //-                 a#menu(class="waves-effect material-icons btn-transparent pulse" data-target="slide-out") menu
+    //-                 //- pruba de sidenav
+    //-                 ul#slide-out(class="sidenav")
+    //-                     li
+    //-                         h6 pruebon
+    //-                         a(href="sass.html") HTML
+    //-             div#container2(class="col s2")
+    //-                 img#logo(src="img/logo.png", alt="" class="left-align")
+    //-             div#container3(class="col s2 m2 l3 xl3 hide-on-med-only")
+
+    //-             div#container4(class="col hide-on-small-only")
+    //-                 div(class="row")
+    //-                     div(class="input-field col m6 l7 xl9")
+    //-                         input#search(type="search" placeholder="Search")
+    //-                     div(class="input-field col m2 pulse")
+    //-                         i#btnsearch(class="waves-effect material-icons btn-gray search") search
+    //-             div#container5(class="colm2 hide-on-med-down")
+
+    //-             div#container6(class="col s3")
+    //-                 .section
+    //-                     div(class="col s2 m3 hide-on-med-and-up show-on-small")
+    //-                         a#videocall(class="material-icons" href="#") search
+    //-                     div(class="col s2 m3 xl2")
+    //-                         a#videocall(class="material-icons" href="#") video_call
+    //-                     div(class="col s2 m3 xl2")
+    //-                         a#videocall(class="material-icons" href="#") blur_on
+    //-                     div(class="col s2 m3 hide-on-small-only xl3")
+    //-                         a#videocall(class="material-icons" href="#") notifications
+    //-                     div(class="col s2 m2")
+    //-                         a#perfil(class="material-icons perfil") account_circle
 
 
-
-        //- SIDEBAR
-        <div class="my-fixed-item">
-            Columna SIDEBAR
-        </div>
-
-
-
-
-        //- AXELIN
+    //- AXELIN
 
 
 
 
 
-        //- FRANCISCO JOHNNY
+    //- FRANCISCO JOHNNY
 
 
 
 
 
-        <p style="margin-top: 50rem"> asdfasd </p>
-        //- Compiled and minified JavaScript
-        script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
-        script.
-            //- alert("PRUEBON")
-            //- console.log("Hola Mundo")
+      <p style="margin-top: 50rem"> asdfasd </p>
+    //- Compiled and minified JavaScript
+    script(src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous") 
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+    //- INICIALIZAR SIDENAV
+    script.
+    //- alert("PRUEBON")
+    //- console.log("Hola Mundo")
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+      });

@@ -1,20 +1,7 @@
+include componentes_pug/header
 html(lang="en")
     head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        //- Compiled and minified CSS
-        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
-        //- Import Google Icon Font
-        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
-        //- CSS
-        link(href="sass/youtube.css" rel="stylesheet")
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        title YouTube
+        +header_component
     body
         center
             .container#containeregister(class="col s12 m6")
@@ -24,34 +11,41 @@ html(lang="en")
                     .containerdiv#txtContainer1register(class="col s12")
                         p#txt1register Crear tu cuenta de Google
                     .container#txtContainer2register(class="col s12") 
-                        p#txt2register Acceder a YouTube
+                        p#txt2register Continuar con YouTube
                     .container(class="col s12")
                         .container#nombreregister(class="input-field col s3")
                             label#labelnombreregister(for="nombre_input_register" class="labelnombre") Nombre
-                            input(id="nombre_input_register" type="email" class="validate section")
-                            .container#apellidoregister(class="input-field col s12")
-                                label#labelapellidoregister(for="apellido_input_register") Apellido
-                                input(id="apellido_input_register" type="email" class="validate section")
-                        .container#correoregister(class="input-field col s3")
-                            label#labelinputregister(for="correo_input_register") Tu dirección de correo electrónico
-                            input(id="correo_input_register" type="email" class="validate section")
+                            input(id="nombre_input_register" type="text" class="validate section")
+                            .container#correoregister(class="input-field col s12")
+                                label#labelcorreoregister(for="correo_input_register") Tu dirección de correo electrónico
+                                input(id="correo_input_register" type="email" class="validate section")
+                        .container#apellidoregister(class="input-field col s3")
+                            label#labelapellidoregister(for="apellido_input_register") Apellido
+                            input(id="apellido_input_register" type="text" class="validate section")
                         .container(class="col s6")
                             img#google_protect(src="img/google_protect.png", alt="")
-                    .container(class="col s12")
-                        b 
-                            a#emailforgot(href="#") ¿Olvidaste tu correo electrónico?
-                    .container(class="col s12")
-                        p#txt4 ¿Esta no es tu computadora? Usa una ventana privada para acceder 
-                            a#txt5(href="#") Más información
-                    .container#buttons(class="col s12")
-                        .container(class="col s7")
-                            a#txt6(href="#") Crear cuenta
-                        .container(class="col s5")
-                            button#txt7(class="btn") Siguiente
+                    .container#txt3register(class="col s12")
+                        p#txt3register_p(href="#") Deberás confirmar que este correo electrónico es tuyo.
+                    .container#txt4register(class="col s12")
+                        a#txt4register_a Crear una cuenta de Gmail en su lugar
+                    .container#container_contrasena_register(class="col s6")
+                        .container#contrasenaregister(class="input-field col s5")
+                            label#labelcontrasenaregister(for="contrasena_input_register" class="labelcontrasenaregister") Contraseña
+                            input(id="contrasena_input_register" type="password" class="validate section")
+                        .container#confirmaregister(class="input-field col s5")
+                            label#labelconfirmaregister(for="confirmar_input_register" class="labelconfirmaregister") Confirmación
+                            input(id="confirmar_input_register" type="password" class="validate section")
+                    .container#txt5register(class="col s6")
+                        p#txt5register_p(href="#") Usa 8 o más caracteres con una combinación de letras, números y símbolos
+                    .container#buttons_register(class="col s12")
+                        .container#txt6register(class="col s7")
+                            a#txt6register_a(href="#") Acceder a tu cuenta en su lugar
+                        .container(class="col s1")
+                            button#btnregister(class="btn") Siguiente
         .container(class="footer col s12")
             .row
                 .container(class="footer2 col s11 m6")
-                    ul(id="dropdown2" class="dropdown-content")
+                    ul(id="dropdown2register" class="dropdown-content")
                         li
                             a(href="#!") asdf
                                 span(class="badge")
@@ -61,8 +55,8 @@ html(lang="en")
                         li
                             a(href="#!")
                                 span(class="badge")
-                    a(class="dropdown-trigger" href="#!" data-target="dropdown2") Español (Latinoamerica)
-                        i#dropdown2btn(class="material-icons right") arrow_drop_down
+                    a(class="dropdown-trigger trigger_registrar" href="#!" data-target="dropdown2") Español (Latinoamerica)
+                        i#dropdown2btn(class="material-icons right trigger_registrar_right") arrow_drop_down
                 
                 .container(class="footer3 col s12 m6")
                 
