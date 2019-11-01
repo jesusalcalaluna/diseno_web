@@ -780,13 +780,53 @@ position-fixed {
   }
 }
 
+#txt1_susc {
+  font-size: 15px;
+  float: left;
+}
+
 #container2suscripcion {
-  height: 150px;
+  margin-top: 10px;
+  height: 50px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-right: 50px;
+  border: none;
+}
+
+#card_premium {
+  width: 230px;
+  text-align: left;
+  border: none;
+}
+
+#logo_premium {
+  height: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: .8px solid lightgray;
+  border-right: .8px solid lightgray;
+  border-bottom: .8px solid lightgray;
+  border-left: .8px solid lightgray;
+}
+
+.card-content {
+  top: 0;
+  text-align: left;
+}
+
+#txt2_susc {
+  font-size: 15px;
+}
+
+#txt3_susc {
+  font-size: 12px;
+}
+
+#txt4_susc {
+  font-size: 15px;
 }
 /*# sourceMappingURL=youtube.css.map */
