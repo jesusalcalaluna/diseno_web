@@ -1,0 +1,39 @@
+mixin sidenav_component
+    ul#slide-out(class="sidenav")
+        li:hover(class="ppp")
+            a(class="sidenav-close" href="#")
+                i(class="material-icons") menu 
+            img#logoside(src="img/logo.png", alt="" style="")
+        li(class="home")
+            a#home(href="#!")
+                i(class="material-icons home") home
+                h6#inicio Inicio
+        li(class="tendencias")
+            a#trends(href="#!")
+                i(class="material-icons trends") whatshot
+                h6#inicio Tendencias
+        li(class="subs")
+            a#subscriptions(href="#")
+                i(class="material-icons subscriptions") subscriptions
+                h6#inicio Subscripciones
+        div.divider
+        li(class="biblioteca")
+            a#subscriptions(href="#")
+                i(class="material-icons biblioteca") folder
+                h6#inicio Biblioteca
+        li(class="historial")
+            a#subscriptions(href="#")
+                i(class="material-icons historial") history
+                h6#inicio Historial
+        li(class="mastarde")
+            a#subscriptions(href="#")
+                i(class="material-icons mastarde") watch_later
+                h6#inicio Ver más tarde
+        li(class="megusta")
+            a#subscriptions(href="#")
+                i(class="material-icons megusta") thumb_up
+                h6#inicio Vídeos que te gustaron
+                
+    a(href="#" data-target="slide-out" class="sidenav-trigger")
+        i(class="material-icons menu") menu    
+    
