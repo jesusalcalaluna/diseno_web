@@ -3,7 +3,7 @@ mixin navbar_component
     center
       div(class="row")
         div#container1(class="col s1")
-          a#menu(class="waves-effect material-icons btn-transparent pulse") menu
+          +sidenav_component
         div#container2(class="col s2")
           img#logo(src="img/logo.png", alt="" class="left-align")
         div#container3(class="col s2 m2 l3 xl3 hide-on-med-only")

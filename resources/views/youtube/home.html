@@ -6,12 +6,32 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link href="sass/youtube.css" rel="stylesheet"/>
+  <link href="sass/sidenav.css" rel="stylesheet"/>
   <title>YouTube</title>
   <body>
     <div>
       <center>
         <div class="row">
-          <div class="col s1" id="container1"><a class="waves-effect material-icons btn-transparent pulse" id="menu">menu</a></div>
+          <div class="col s1" id="container1">
+            <ul class="sidenav" id="slide-out">
+              <li:hover class="ppp"><a class="sidenav-close" href="#"><i class="material-icons">menu </i></a><img id="logoside" src="img/logo.png" alt=""/></li:hover>
+              <li class="home"><a id="home" href="#!"><i class="material-icons home">home</i>
+                  <h6 id="inicio">Inicio</h6></a></li>
+              <li class="tendencias"><a id="trends" href="#!"><i class="material-icons trends">whatshot</i>
+                  <h6 id="inicio">Tendencias</h6></a></li>
+              <li class="subs"><a id="subscriptions" href="#"><i class="material-icons subscriptions">subscriptions</i>
+                  <h6 id="inicio">Subscripciones</h6></a></li>
+              <div class="divider"></div>
+              <li class="biblioteca"><a id="subscriptions" href="#"><i class="material-icons biblioteca">folder</i>
+                  <h6 id="inicio">Biblioteca</h6></a></li>
+              <li class="historial"><a id="subscriptions" href="#"><i class="material-icons historial">history</i>
+                  <h6 id="inicio">Historial</h6></a></li>
+              <li class="mastarde"><a id="subscriptions" href="#"><i class="material-icons mastarde">watch_later</i>
+                  <h6 id="inicio">Ver más tarde</h6></a></li>
+              <li class="megusta"><a id="subscriptions" href="#"><i class="material-icons megusta">thumb_up</i>
+                  <h6 id="inicio">Vídeos que te gustaron</h6></a></li>
+            </ul><a class="sidenav-trigger" href="#" data-target="slide-out"><i class="material-icons menu">menu    </i></a>
+          </div>
           <div class="col s2" id="container2"><img class="left-align" id="logo" src="img/logo.png" alt=""/></div>
           <div class="col s2 m2 l3 xl3 hide-on-med-only" id="container3"></div>
           <div class="col hide-on-small-only" id="container4">
@@ -37,6 +57,11 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script></script>
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+      });
+    </script>
   </body>
 </html>

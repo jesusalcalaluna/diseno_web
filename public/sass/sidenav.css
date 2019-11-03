@@ -1,0 +1,20 @@
+.sidenav-close{
+  float: left;
+  margin-top: 5%;
+  margin-left: 10%;
+  color: darkgray;
+}
+#logoside{
+    height: 17px;
+    margin-top: 20px;
+    margin-right: 30%;
+}
+#inicio{
+  float: left;
+}
+.home{
+  margin-top: 10px;
+}
+.material-icons{
+  color: gray;
+}

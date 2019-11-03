@@ -25,9 +25,10 @@
   width: auto;
 }
 
-#menu {
+.material-icons.menu {
   color: darkgray;
   margin-top: 15px;
+  margin-left: 25%;
 }
 
 #logo {
