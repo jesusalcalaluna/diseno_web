@@ -10,8 +10,6 @@
 |
 */
 
-Route::get('/', 'HomeController@verHome');
-
 Route::get('/juan', function () {
     return view('juan');
 });
@@ -27,6 +25,9 @@ route::get("/mario", function() {
 
 /////////////                     YouTube                      //////////////////
 
+
+Route::get('/', 'HomeController@verHome');
+
 route::get('/login', 'loginController@viewLogin');
 
 route::get('/register', 'formRegisterController@viewFormRegister');
@@ -34,7 +35,6 @@ route::get('/register', 'formRegisterController@viewFormRegister');
 route::get('/suscripciones_pagos', 'suscripcionesController@verSuscripciones');
 
 // route::get('/youtube', 'HomeController@verHome');
-
 
 
 // vistas del johnny
