@@ -49,7 +49,39 @@
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">video_call</a></div>
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">blur_on</a></div>
               <div class="col s2 m3 hide-on-small-only xl3"><a class="material-icons" id="videocall" href="#">notifications</a></div>
-              <div class="col s2 m2"><a class="material-icons perfil" id="perfil">account_circle</a></div>
+              <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown2">account_circle
+                  <ul class="dropdown-content" id="dropdown2"><img style="width: 290px;" src="img/profile.JPG"/>
+                    <div style="padding-top: 8px;"><a style=" color: black; font-size: 15px;">
+                        <p style="padding-left: 38px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="">Administra tu cuenta Google</p></a></div>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Tu cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">monetization_on</i>
+                        <p style=" color: black; font-size: 15px;">Membresias pagadas</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">youtube Studio(BETA)</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Cambiar cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">open_in_new</i>
+                        <p style=" color: black; font-size: 15px;">Salir</p></a></li>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Tema Oscuro: Activado</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">language</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">Configuración</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">security</i>
+                        <p style=" color: black; font-size: 15px;">Tus datos en youtube</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">live_help</i>
+                        <p style=" color: black; font-size: 15px;">Ayuda</p></a></li>
+                  </ul></a></div>
             </div>
           </div>
         </div>
@@ -62,6 +94,7 @@
           var elems = document.querySelectorAll('.sidenav');
           var instances = M.Sidenav.init(elems);
       });
+      $('.dropdown-trigger').dropdown();
     </script>
   </body>
 </html>

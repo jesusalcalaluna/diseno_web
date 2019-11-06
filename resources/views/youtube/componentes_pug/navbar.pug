@@ -27,4 +27,62 @@ mixin navbar_component
             div(class="col s2 m3 hide-on-small-only xl3")
               a#videocall(class="material-icons" href="#") notifications
             div(class="col s2 m2")
-              a#perfil(class="material-icons perfil") account_circle
+              a#perfil(class="material-icons perfil dropdown-trigger" data-target="dropdown2") account_circle
+                ul(class="dropdown-content" id="dropdown2")
+                  img(style="width: 290px;" src="img/profile.JPG")
+                  div(style="padding-top: 8px;")
+                    a(style=" color: black; font-size: 15px;")
+                      p(style="padding-left: 38px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="") Administra tu cuenta Google
+                  div(style="padding-top: 13px; padding-bottom: 8px;")
+                    li(class="divider" tabindex="-1")
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") account_box
+                      p(style=" color: black; font-size: 15px;") Tu cuenta
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") monetization_on
+                      p(style=" color: black; font-size: 15px;") Membresias pagadas
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") settings
+                      p(style=" color: black; font-size: 15px;") youtube Studio(BETA)
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") account_box
+                      p(style=" color: black; font-size: 15px;") Cambiar cuenta
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") open_in_new
+                      p(style=" color: black; font-size: 15px;") Salir
+                  div(style="padding-top: 13px; padding-bottom: 8px;")
+                    li(class="divider" tabindex="-1")
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") brightness_4
+                      p(style=" color: black; font-size: 15px;") Tema Oscuro: Activado
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") brightness_4
+                      p(style=" color: black; font-size: 15px;") Idioma: Español
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") language
+                      p(style=" color: black; font-size: 15px;") Idioma: Español
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") settings
+                      p(style=" color: black; font-size: 15px;") Configuración
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") security
+                      p(style=" color: black; font-size: 15px;") Tus datos en youtube
+                  li
+                    a(href="")
+                      i( class="material-icons" style="color: #9b9b9b; font-size: 23px;") live_help
+                      p(style=" color: black; font-size: 15px;") Ayuda
+
+
+
+
+
