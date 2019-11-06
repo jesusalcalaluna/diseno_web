@@ -81,7 +81,7 @@ h5{
 }
 #estrenos2, #live2{
   margin-top: 80%;
-  
+  padding: 10px;
 }
 #imagen2{
   margin-top: 10%;
@@ -92,7 +92,7 @@ h5{
 #partebaja{
   width: 50%;
   height: 35%;
-  margin-top: -18%;
+  margin-top: -19%;
 }
 #texto{
   color: gray;
