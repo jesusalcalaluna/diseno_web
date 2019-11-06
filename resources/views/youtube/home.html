@@ -1,4 +1,5 @@
 
+<!--  -->
 <html lang="en">
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,7 +21,7 @@
               <li class="tendencias"><a id="trends" href="#!"><i class="material-icons trends">whatshot</i>
                   <h6 id="inicio">Tendencias</h6></a></li>
               <li class="subs"><a id="subscriptions" href="#"><i class="material-icons subscriptions">subscriptions</i>
-                  <h6 id="inicio">Suscripciones</h6></a></li>
+                  <h6 id="inicio">Subscripciones</h6></a></li>
               <div class="divider"></div>
               <li class="biblioteca"><a id="subscriptions" href="#"><i class="material-icons biblioteca">folder</i>
                   <h6 id="inicio">Biblioteca</h6></a></li>
@@ -29,7 +30,7 @@
               <li class="mastarde"><a id="subscriptions" href="#"><i class="material-icons mastarde">watch_later</i>
                   <h6 id="inicio">Ver más tarde</h6></a></li>
               <li class="megusta"><a id="subscriptions" href="#"><i class="material-icons megusta">thumb_up</i>
-                  <h6 id="inicio">Vídeos que te gustaron</h6></a></li>
+
               <div class="divider"></div>
               <li>
                 <p class="subheader">SUSCRIPCIONES</p>
@@ -64,6 +65,7 @@
                 <p class="subheader">MÁS DE YOUTUBE</p>
               </li>
             </ul><a class="sidenav-trigger" href="#" data-target="slide-out"></a>
+
           </div>
           <div class="col s2" id="container2"><img class="left-align" id="logo" src="img/logo.png" alt=""/></div>
           <div class="col s2 m2 l3 xl3 hide-on-med-only" id="container3"></div>
@@ -82,7 +84,39 @@
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">video_call</a></div>
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">blur_on</a></div>
               <div class="col s2 m3 hide-on-small-only xl3"><a class="material-icons" id="videocall" href="#">notifications</a></div>
-              <div class="col s2 m2"><a class="material-icons perfil" id="perfil">account_circle</a></div>
+              <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown2">account_circle
+                  <ul class="dropdown-content" id="dropdown2"><img style="width: 290px;" src="img/profile.JPG"/>
+                    <div style="padding-top: 8px;"><a style=" color: black; font-size: 15px;">
+                        <p style="padding-left: 38px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="">Administra tu cuenta Google</p></a></div>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Tu cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">monetization_on</i>
+                        <p style=" color: black; font-size: 15px;">Membresias pagadas</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">youtube Studio(BETA)</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Cambiar cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">open_in_new</i>
+                        <p style=" color: black; font-size: 15px;">Salir</p></a></li>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Tema Oscuro: Activado</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">language</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">Configuración</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">security</i>
+                        <p style=" color: black; font-size: 15px;">Tus datos en youtube</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">live_help</i>
+                        <p style=" color: black; font-size: 15px;">Ayuda</p></a></li>
+                  </ul></a></div>
             </div>
           </div>
         </div>
@@ -97,6 +131,433 @@
         
       
       });
+      $('.dropdown-trigger').dropdown();
     </script>
+    <div style="background-color: #F9F9F9; margin-top:-50px"><br/>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s10"><b>Recomendados</b></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s1">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+        <div class="col s1" style="margin-left:70px">
+          <div class="row"><a href="/reproducirvideo"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/></a></div><a href="/reproducirvideo">
+            <div class="row" style="margin-top:-10px; width: 180px; height:100px"><b style="color: #000; font-size:15px">Gallina pifi</b>
+              <p style="color: #777; margin-top:5px; font-size:11.94px">Mr. pifi</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">275 M  visualizaciones</p>
+              <p style="color: #777; margin-top:-10px; font-size:11.94px">hace 5 años</p>
+            </div></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="col s8">
+          <hr/>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
