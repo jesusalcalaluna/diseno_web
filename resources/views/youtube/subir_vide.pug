@@ -1,0 +1,59 @@
+include componentes_pug/header
+include componentes_pug/navbar
+include componentes_pug/sidenav
+//- include componentes_pug/footer
+html(lang="en")
+    head
+        +header_component
+        
+    body
+        +navbar_component
+       
+        div(class="card")
+            div(class="card-content")
+                form(action="", method="")
+                    div#div_file
+                        input(type="file" id="file" name="image" accept="image/*")
+                        img#upload(src="img/upload.png")
+                    h5 Selecciona archivos para subir
+                    h6#implementacion Pronto implementaremos una nueva forma de subir vídeos. Porbar ahora
+        div(class="col s12 hide-on-small-only hide-on-med-only")
+            div#imagen(class="card horizontal")
+                div#imagen2(class="card-image")
+                    img(src="img/galery.png")
+                div(class="card-stacked")
+                    div(class="card-content")
+                        h6#imagen3 Importar videos desde Google Fotos .
+                        button Importar
+        div(class="col s12 hide-on-small-only hide-on-med-only")
+            div#live(class="card horizontal")
+                div(class="card-image")
+                    img#live2(src="img/live.png")
+                div(class="card-stacked")
+                    div(class="card-content")
+                        h6#live3 Configura tu canal y realiza transmisiones en vivo para tus fans .
+                        button Comenzar
+        div(class="col s12 hide-on-small-only hide-on-med-only")
+            div#estrenos(class="card horizontal")
+                div(class="card-image")
+                    img#estrenos2(src="img/estrenos.png")
+                div(class="card-stacked")
+                    div(class="card-content")
+                        h6#estrenos3 Genera interés en torno al lanzamiento de tu próximo video. Los estrenos facilitan la promoción del video y la interacción con los fans a través de chats en vivo.  .
+                        button Más Información
+        div#partebaja(class="card hide-on-small-only hide-on-med-only")
+            div(class="card-content")
+                h6#texto 
+                    b AYUDA Y SUGERENCIAS 
+                    br
+                    h6 ¿Quieres subir videos de más de 15 minutos? Aumentar límite
+                    h6 Al enviar tus videos a YouTube, reconoces que aceptas las Condiciones del servicio y los Lineamientos de la comunidad de YouTube.
+                    h6 Asegúrate de no infringir los derechos de autor o de privacidad de otras personas. Más información
+                    h6 Instrucciones de carga | Solución de problemas | Subir desde dispositivos móviles 
+        //- +footer_component
+
+           
+
+
+                    
+    

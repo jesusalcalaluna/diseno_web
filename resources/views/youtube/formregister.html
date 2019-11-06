@@ -6,39 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <link href="../resources/sass/youtube.css" rel="stylesheet"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="sass/youtube.css" rel="stylesheet"/>
+    <link href="sass/sidenav.css" rel="stylesheet"/>
     <title>YouTube</title>
   </head>
   <body>
     <center>
       <div class="container col s12 m6" id="containeregister">
         <div class="row">
-          <div class="container col s12" id="google"><img id="logogoogleregister" src="img/google.png" alt=""/></div>
-          <div class="containerdiv col s12" id="txtContainer1">
-            <p id="txt1">Crear tu cuenta de Google</p>
+          <div class="container col s12" id="googleregister"><img id="logogoogleregister" src="img/google.png" alt=""/></div>
+          <div class="containerdiv col s12" id="txtContainer1register">
+            <p id="txt1register">Crear tu cuenta de Google</p>
           </div>
-          <div class="container col s12" id="txtContainer2"> 
-            <p id="txt2">Continuar con YouTube</p>
+          <div class="container col s12" id="txtContainer2register"> 
+            <p id="txt2register">Continuar con YouTube</p>
           </div>
           <div class="container col s12">
-            <div class="container input-field col s3" id="email">
-              <label id="labelinput" for="user">Correo electrónico o teléfono</label>
-              <input class="validate section" id="user" type="email"/>
+            <div class="container input-field col s3" id="nombreregister">
+              <label class="labelnombre" id="labelnombreregister" for="nombre_input_register">Nombre</label>
+              <input class="validate section" id="nombre_input_register" type="text"/>
+              <div class="container input-field col s12" id="correoregister">
+                <label id="labelcorreoregister" for="correo_input_register">Tu dirección de correo electrónico</label>
+                <input class="validate section" id="correo_input_register" type="email"/>
+              </div>
             </div>
-            <div class="container input-field col s3" id="email">
-              <label id="labelinput" for="user">Correo electrónico o teléfono</label>
-              <input class="validate section" id="user" type="email"/>
+            <div class="container input-field col s3" id="apellidoregister">
+              <label id="labelapellidoregister" for="apellido_input_register">Apellido</label>
+              <input class="validate section" id="apellido_input_register" type="text"/>
+            </div>
+            <div class="container col s6"><img id="google_protect" src="img/google_protect.png" alt=""/></div>
+          </div>
+          <div class="container col s12" id="txt3register">
+            <p id="txt3register_p" href="#">Deberás confirmar que este correo electrónico es tuyo.</p>
+          </div>
+          <div class="container col s12" id="txt4register"><a id="txt4register_a">Crear una cuenta de Gmail en su lugar</a></div>
+          <div class="container col s6" id="container_contrasena_register">
+            <div class="container input-field col s5" id="contrasenaregister">
+              <label class="labelcontrasenaregister" id="labelcontrasenaregister" for="contrasena_input_register">Contraseña</label>
+              <input class="validate section" id="contrasena_input_register" type="password"/>
+            </div>
+            <div class="container input-field col s5" id="confirmaregister">
+              <label class="labelconfirmaregister" id="labelconfirmaregister" for="confirmar_input_register">Confirmación</label>
+              <input class="validate section" id="confirmar_input_register" type="password"/>
             </div>
           </div>
-          <div class="container col s12"><b> <a id="emailforgot" href="#">¿Olvidaste tu correo electrónico?</a></b></div>
-          <div class="container col s12">
-            <p id="txt4">¿Esta no es tu computadora? Usa una ventana privada para acceder <a id="txt5" href="#">Más información</a></p>
+          <div class="container col s6" id="txt5register">
+            <p id="txt5register_p" href="#">Usa 8 o más caracteres con una combinación de letras, números y símbolos</p>
           </div>
-          <div class="container col s12" id="buttons">
-            <div class="container col s7"><a id="txt6" href="#">Crear cuenta</a></div>
-            <div class="container col s5">
-              <button class="btn" id="txt7">Siguiente</button>
+          <div class="container col s12" id="buttons_register">
+            <div class="container col s7" id="txt6register"><a id="txt6register_a" href="#">Acceder a tu cuenta en su lugar</a></div>
+            <div class="container col s1">
+              <button class="btn" id="btnregister">Siguiente</button>
             </div>
           </div>
         </div>
@@ -47,11 +65,11 @@
     <div class="container footer col s12">
       <div class="row">
         <div class="container footer2 col s11 m6">
-          <ul class="dropdown-content" id="dropdown2">
+          <ul class="dropdown-content" id="dropdown2register">
             <li><a href="#!">asdf<span class="badge"></span></a></li>
             <li><a href="#!"><span class="badge"></span></a></li>
             <li><a href="#!"><span class="badge"></span></a></li>
-          </ul><a class="dropdown-trigger" href="#!" data-target="dropdown2">Español (Latinoamerica)<i class="material-icons right" id="dropdown2btn">arrow_drop_down</i></a>
+          </ul><a class="dropdown-trigger trigger_registrar" href="#!" data-target="dropdown2">Español (Latinoamerica)<i class="material-icons right trigger_registrar_right" id="dropdown2btn">arrow_drop_down</i></a>
         </div>
         <div class="container footer3 col s12 m6"><a class="col s3" id="txt8">Ayuda</a><a class="col s4" id="txt9">Privacidad</a><a class="col s3" id="txt10">Condiciones</a></div>
       </div>

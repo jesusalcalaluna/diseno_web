@@ -13,4 +13,7 @@ class HomeController extends Controller
     function reproducirvideo(){
     	return view("youtube/reproducirvideo");
     }
+    function subir_video(){
+        return view("youtube/subir_vide");
+    }
 }
