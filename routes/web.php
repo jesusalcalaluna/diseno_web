@@ -33,6 +33,8 @@ route::get('/register', 'formRegisterController@viewFormRegister');
 
 route::get('/suscripciones_pagos', 'suscripcionesController@verSuscripciones');
 
+route::get('/verificarcuenta', 'verificarController@verVerificar');
+
 // route::get('/youtube', 'HomeController@verHome');
 
 
@@ -41,4 +43,6 @@ route::get('/suscripciones_pagos', 'suscripcionesController@verSuscripciones');
 Route::get('/reproducirvideo', 'HomeController@reproducirvideo');
 
 //vistas del Alcala
-//Route:get('/videosgustados',):
+Route::get('/videosgustados','videosController@viewvideosgustados');
+
+route::get('/subir_video','HomeController@subir_video');

@@ -1,0 +1,132 @@
+include componentes_pug/header
+include componentes_pug/navbar
+include componentes_pug/sidenav
+html(lang="en")
+  +header_component
+
+  body
+
+    +navbar_component
+
+    
+      <p style="margin-top: 50rem"> asdfasd </p>
+      //- video
+    //- Compiled and minified JavaScript
+    script(src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous") 
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+    //- INICIALIZAR SIDENAV
+    script.
+            document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+  div(style="background-color: #F0F0F0; margin-top:-50px")
+    br
+    br
+    b(style="padding-left: 30px;") Verificacion de la cuenta (paso 1 de 2)
+    br
+    p(style="padding-left: 30px;") Si verificas tu cuenta con numero de telefono no solo podras disfrutar de muchas otras opciones de YouTube,sino que asi nos aseguraremos de que no eres un robot suplantando a un humano. 
+      a(href='google.com') Mas informacion.
+    b(style="padding-left: 30px;") Selecciona tu pais.
+    div(class="input-field col s12" style="padding-left: 30px;")
+      select(class="browser-default" style = "width: 380px; height: 37px;")
+        option(value="0") Mexico
+        option(value="1") USA
+        option(value="3") Colombia
+        option(value="4") Venezuela
+        option(value="5") Peru
+        option(value="6") Chile
+        option(value="7") Argentina
+        option(value="8") España
+        option(value="9") Alemania
+        option(value="10") Inglaterra
+        option(value="11") Francia
+        option(value="12") Italia
+        option(value="13") Polonia
+        option(value="14") Noruega
+        option(value="15") Suiza
+        option(value="16") Suicia
+        option(value="17") Arabia
+        option(value="18") Japon
+        option(value="19") China
+        option(value="20") Korea del sur
+    
+    b(style="padding-left: 30px;") ¿como prefieres que te enviemos el codigo de verificacion?
+    br
+    label(style="padding-left: 25px;")
+      input(name="radio1" type="radio")
+      span(style="color:black") LLamada con mensaje de voz automatico
+    br
+    label(style="padding-left: 25px;")
+      input(name="radio2" type="radio")
+      span(style="color:black") Mensaje de texto con el codigo de verificacion
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+  div( style="background-color: #FFFFFF; margin-top:2px")
+    img#logo_verif(src="img/logo.png")
+    select(class="browser-default" style = "width: 170px; height: 34px; position:absolute; right: 1180px; top: 650px; background:#f7f7f7;")
+      option(value="0") Idioma: Espanol
+      option(value="1") Ingles
+      option(value="3") Frances
+    select(class="browser-default" style = "width: 170px; height: 34px; position:absolute; right: 970px; top: 650px; background:#f7f7f7;")
+      option(value="0") Ubicacion: Mexico
+      option(value="1") USA
+      option(value="3") Colombia
+      option(value="4") Venezuela
+      option(value="5") Peru
+      option(value="6") Chile
+      option(value="7") Argentina
+      option(value="8") España
+      option(value="9") Alemania
+      option(value="10") Inglaterra
+      option(value="11") Francia
+      option(value="12") Italia
+      option(value="13") Polonia
+      option(value="14") Noruega
+      option(value="15") Suiza
+      option(value="16") Suicia
+      option(value="17") Arabia
+      option(value="18") Japon
+      option(value="19") China
+      option(value="20") Korea del sur  
+    select(class="browser-default" style = "width: 170px; height: 34px; position:absolute; right: 760px; top: 650px; background:#f7f7f7;")
+      option(value="0") Modo restringido: NO
+      option(value="1") Modo restringido: SI
+    a(class="waves-effect waves-light btn" style = "width: 130px; height: 34px; position:absolute; right: 570px; top: 650px; background:#f2f2f2; color: black;") Historial
+    a(class="waves-effect waves-light btn" style = "width: 130px; height: 34px; position:absolute; right: 400px; top: 650px; background:#f2f2f2; color: black;") Ayuda
+    a(href="#" style="position:absolute; right: 1410px; top: 705px; " )
+      b(style="color:black;") Informacion
+    a(href="#" style="position:absolute; right: 1330px; top: 705px; " )
+      b(style="color:black;") Prensa
+    a(href="#" style="position:absolute; right: 1160px; top: 705px; " )
+      b(style="color:black;") Derechos de autor
+    a(href="#" style="position:absolute; right: 1060px; top: 705px; " )
+      b(style="color:black;") Creadores
+    a(href="#" style="position:absolute; right: 950px; top: 705px; " )
+      b(style="color:black;") Publicidad
+    a(href="#" style="position:absolute; right: 800px; top: 705px; " )
+      b(style="color:black;") Desarrolladores
+    a(href="#" style="position:absolute; right: 1445px; top: 717px; " )
+      p(style="color:black; font-size:13px;") Terminos
+    a(href="#" style="position:absolute; right: 1360px; top: 717px; " )
+      p(style="color:black; font-size:13px;") Privacidad
+    a(href="#" style="position:absolute; right: 1220px; top: 717px; " )
+      p(style="color:black; font-size:13px;") Politicas y seguridad
+    a(href="#" style="position:absolute; right: 1090px; top: 717px; " )
+      p(style="color:black; font-size:13px;") Enviar Sugerencias
+    a(href="#" style="position:absolute; right: 900px; top: 717px; " )
+      p(style="color:black; font-size:13px;") Probar las nuevas funciones
