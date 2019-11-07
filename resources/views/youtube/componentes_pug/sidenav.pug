@@ -15,7 +15,7 @@ mixin sidenav_component
         li(class="subs")
             a#subscriptions(href="#")
                 i(class="material-icons subscriptions") subscriptions
-                h6#inicio Subscripciones
+                h6#inicio Suscripciones
         div.divider
         li(class="biblioteca")
             a#subscriptions(href="#")
@@ -32,8 +32,79 @@ mixin sidenav_component
         li(class="megusta")
             a#subscriptions(href="#")
                 i(class="material-icons megusta") thumb_up
-                h6#inicio Vídeos que te gustaron
-                
+                h6#inicio Videos que gustaron
+        div.divider
+        li
+            p(class="subheader") SUSCRIPCIONES
+        
+        div.divider
+        li
+            p(class="subheader") MÁS DE YOUTUBE
+        li(class="yp")
+            a#subscriptions(href="#")
+                i(class="material-icons yp") play_circle_filled
+                h6#inicio Youtube premium
+        li(class="theaters")
+            a#subscriptions(href="#")
+                i(class="material-icons theaters") theaters
+                h6#inicio Peliculas de Youtube 
+        div.divider
+        li(class="settings")
+            a#subscriptions(href="#")
+                i(class="material-icons settings") settings
+                h6#inicio Herramientas
+        li(class="help")
+            a#subscriptions(href="#")
+                i(class="material-icons help") help
+                h6#inicio Ayuda
+        li(class="feedback")
+            a#subscriptions(href="#")
+                i(class="material-icons feedback") feedback
+                h6#inicio Enviar sugerencias
+        div.divider
+        div.copyright
+            h6 Información PrensaDerechos de autor Contacto Creadores Publicidad Desarrolladores
+            h6 TérminosPrivacidadPolítica y seguridadProbar las nuevas funciones
+            h6 © 2019 YouTube, LLC
+
     a(href="#" data-target="slide-out" class="sidenav-trigger")
-        i(class="material-icons menu") menu    
-    
+        i(class="material-icons menu") menu  
+    //- //- SIDENAV FIXED
+    //- ul(id="slide-out" class="sidenav sidenav-fixed z-depth-0 hide-on-small-only")
+    //-     li(class="home")
+    //-         a#home(href="#!")
+    //-             i(class="material-icons home icono") home
+    //-             h6#inicio Inicio
+    //-     li(class="tendencias")
+    //-         a#trends(href="#!")
+    //-             i(class="material-icons trends icono") whatshot
+    //-             h6#inicio Tendencias
+    //-     li(class="subs")
+    //-         a#subscriptions(href="#")
+    //-             i(class="material-icons subscriptions icono") subscriptions
+    //-             h6#inicio Suscripciones
+    //-     div.divider
+    //-     li(class="biblioteca")
+    //-         a#subscriptions(href="#")
+    //-             i(class="material-icons biblioteca icono") folder
+    //-             h6#inicio Biblioteca
+    //-     li(class="historial")
+    //-         a#subscriptions(href="#")
+    //-             i(class="material-icons historial icono") history
+    //-             h6#inicio Historial
+    //-     li(class="mastarde")
+    //-         a#subscriptions(href="#")
+    //-             i(class="material-icons mastarde icono") watch_later
+    //-             h6#inicio Ver más tarde
+    //-     li(class="megusta")
+    //-         a#subscriptions(href="#")
+    //-             i(class="material-icons megusta icono") thumb_up
+    //-             h6#inicio Vídeos que te gustaron
+    //-     div.divider
+    //-     li
+    //-         p(class="subheader") SUSCRIPCIONES
+    //-     div.divider
+    //-     li
+    //-         p(class="subheader") MÁS DE YOUTUBE
+    //- a(href="#" data-target="slide-out" class="sidenav-trigger")
+        
