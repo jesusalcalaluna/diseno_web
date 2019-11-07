@@ -43,6 +43,6 @@ route::get('/verificarcuenta', 'verificarController@verVerificar');
 Route::get('/reproducirvideo', 'HomeController@reproducirvideo');
 
 //vistas del Alcala
-//Route:get('/videosgustados',):
+Route::get('/videosgustados','videosController@viewvideosgustados');
 
 route::get('/subir_video','HomeController@subir_video');

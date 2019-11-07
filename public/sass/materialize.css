@@ -9083,3 +9083,37 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+
+.row .col.y1 {
+    width: 490px;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    background: #26c6da;
+    padding-left: 75px;
+}
+
+.row .col.y2 {
+    width: auto;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.p1{
+    display: block;
+    width: 417px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    background-color: var(--yt-sidebar-background);
+    overflow: auto;
+}
+.p2{
+    height: 101px;
+    align-items: center;
+    cursor: default;
+}
+.lvimg{
+    max-width: 100%;
+    background: #212121;
+    height: 199.75px;
+}
