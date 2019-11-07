@@ -1,10 +1,11 @@
 include componentes_pug/header
 include componentes_pug/navbar
 include componentes_pug/sidenav
+include componentes_pug/videos
 html(lang="en")
   +header_component
 
-  body
+  body()
 
     +navbar_component
 
@@ -21,3 +22,6 @@ html(lang="en")
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
         });
+        $('.dropdown-trigger').dropdown();
+    +videos_component
+    

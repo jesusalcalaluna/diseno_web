@@ -49,7 +49,39 @@
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">video_call</a></div>
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">blur_on</a></div>
               <div class="col s2 m3 hide-on-small-only xl3"><a class="material-icons" id="videocall" href="#">notifications</a></div>
-              <div class="col s2 m2"><a class="material-icons perfil" id="perfil">account_circle</a></div>
+              <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown2">account_circle
+                  <ul class="dropdown-content" id="dropdown2"><img style="width: 290px;" src="img/profile.JPG"/>
+                    <div style="padding-top: 8px;"><a style=" color: black; font-size: 15px;">
+                        <p style="padding-left: 38px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="">Administra tu cuenta Google</p></a></div>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Tu cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">monetization_on</i>
+                        <p style=" color: black; font-size: 15px;">Membresias pagadas</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">youtube Studio(BETA)</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Cambiar cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">open_in_new</i>
+                        <p style=" color: black; font-size: 15px;">Salir</p></a></li>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Tema Oscuro: Activado</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">language</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">Configuración</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">security</i>
+                        <p style=" color: black; font-size: 15px;">Tus datos en youtube</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">live_help</i>
+                        <p style=" color: black; font-size: 15px;">Ayuda</p></a></li>
+                  </ul></a></div>
             </div>
           </div>
         </div>
@@ -63,29 +95,149 @@
           var instances = M.Sidenav.init(elems);
       });
     </script>
-    <div class="row">
-      <div class="col s1"></div>
-      <div class="col s6">
-        <center>
-          <video class="responsive-video" controls="controls">
-            <source src="img/videoplayback.mp4" type="video/mp4"/>
-          </video>
-        </center>
-      </div>
-      <div class="col s3">
-        <div class="card horizontal" style="max-height:16%">
-          <div class="card-image" style="position:relative"><img style="height: 100%; width: 100%" src="img/presentacionvideo.png"/>
-            <div style="background-color: #000; height: 25%; width: 25%; margin-left:75%; margin-top:-15%; position:absolute">
+    <div style="background-color: #F9F9F9; margin-top:-50px"></div>
+    <div style="background-color: #F9F9F9; margin-top:50px; width:100%; height:50px"></div>
+    <div style="background-color: #F9F9F9"><br/>
+      <div class="row">
+        <div class="col s1"></div>
+        <div class="col s6">
+          <div class="row">
+            <div class="col s3"></div>
+            <div class="col s9" style="background-color:#000">
               <center>
-                <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                <video class="responsive-video" controls="controls">
+                  <source src="img/videoplayback.mp4" type="video/mp4"/>
+                </video>
               </center>
             </div>
           </div>
-          <div class="card-stacked">
-            <div class="card-content"><b style="color: #000; font-size:15">Gallina pifi</b>
-              <p style="color: #AAAAAAAA">Mr. pifi</p>
-            </div>
+          <div class="row">
+            <div class="col s3"></div><b style="font-size:20px">Gallina pifi</b>
           </div>
+          <div class="row" style="margin-top:-20px">
+            <div class="col s3"></div>
+            <div class="col s5">
+              <p style="color:#777; font-size: 13px">275,000,000 visualizaciones - 03 nov. 2019</p>
+            </div>
+            <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px;">thumb_up</i></a></div>
+            <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px;">thumb_down</i></a></div>
+            <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px;">reply</i></a></div>
+          </div>
+        </div>
+        <div class="col s1"></div>
+        <div class="col s4" style="position:relative;">
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
         </div>
       </div>
     </div>

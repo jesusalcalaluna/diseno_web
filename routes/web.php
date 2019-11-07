@@ -42,3 +42,5 @@ Route::get('/reproducirvideo', 'HomeController@reproducirvideo');
 
 //vistas del Alcala
 Route::get('/videosgustados','videosController@viewvideosgustados');
+
+route::get('/subir_video','HomeController@subir_video');
