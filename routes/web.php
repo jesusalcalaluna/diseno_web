@@ -33,6 +33,8 @@ route::get('/register', 'formRegisterController@viewFormRegister');
 
 route::get('/suscripciones_pagos', 'suscripcionesController@verSuscripciones');
 
+route::get('/verificarcuenta', 'verificarController@verVerificar');
+
 // route::get('/youtube', 'HomeController@verHome');
 
 
