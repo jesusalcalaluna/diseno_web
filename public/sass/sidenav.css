@@ -27,10 +27,18 @@
   margin-left: -1%;
 }
 
-.cardvideo{
-  height: 55%;
-  margin-top: -3%;
+div #hola{
+  width: 700px;
+  height: 400px;
+  margin-left: 200px;
   text-align: center;
+
+}
+#partebaja{
+  width: 700px;
+  height: 35%;
+  margin-top: 20px;
+  margin-left: 200px;
 }
 .card #file{
   margin-left: 25%;
@@ -41,8 +49,8 @@
   
 }
 .card #upload{
-  margin-top: -10%;
-  display: block;
+  margin-left: -3%;
+  display: relative;
 }
 #div_file{
   width: 20%;
@@ -56,26 +64,30 @@ h5{
 }
 #implementacion{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 60px;
   color: gray;
 }
 #imagen{
-  width: 18%;
-  height: 25%;
-  margin-left: 71%;
-  margin-top: -27.5%;
+  width: 300px;
+  height: 150px;
+  float: right;
+  margin-right: 130px;
+  margin-top: -415px;
 }
 #live{
-  width: 18%;
-  height: 25%;
-  margin-left: 71%;
-  margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-right: 130px;
+  margin-top:-250px;
+
 }
 #estrenos{
-  width: 18%;
-  height: 40%;
-  margin-left: 71%;
-  margin-top: 5px;
+  width: 300px;
+  height: 250px;
+  float: right;
+  margin-right: 130px;
+  margin-top: -35px;
 }
 #estrenos2, #live2{
   margin-top: 80%;
@@ -87,11 +99,7 @@ h5{
 #estrenos3, #live3{
   margin-top: 15%;
 }
-#partebaja{
-  width: 50%;
-  height: 35%;
-  margin-top: -19%;
-}
+
 #texto{
   color: gray;
   
