@@ -2,22 +2,22 @@ mixin navbar_component
   div#container-navbar
     center
       div(class="row")
-        div#container1(class="col s1")
+        div#container1nav(class="col s1")
           +sidenav_component
-        div#container2(class="col s2")
+        div#container2nav(class="col s2")
           a(href="/")
             img#logonavbar(src="img/logo.png", alt="" class="left-align")
-        div#container3(class="col s2 m2 l3 xl3 hide-on-med-only")
+        div#container3nav(class="col s2 m2 l3 xl3 hide-on-med-only")
 
-        div#container4(class="col hide-on-small-only")
+        div#container4nav(class="col hide-on-small-only")
           div(class="row")
-            div(class="input-field col m6 l7 xl9")
+            div(class="col m6 l7 xl9")
               input#search(type="search" placeholder="Search")
-            div(class="input-field col m2 pulse")
+            div(class="col m2")
               i#btnsearch(class="waves-effect material-icons btn-gray search") search
-        div#container5(class="colm2 hide-on-med-down")
+        div#container5nav(class="col m2 hide-on-med-down")
 
-        div#container6(class="col s3")
+        div#container6nav(class="col s3")
           .section
             div(class="col s2 m3 hide-on-med-and-up show-on-small")
               a#videocall(class="material-icons" href="#") search
