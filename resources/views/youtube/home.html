@@ -1,5 +1,4 @@
 
-<!--  -->
 <html lang="en">
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -21,7 +20,7 @@
               <li class="tendencias"><a id="trends" href="#!"><i class="material-icons trends">whatshot</i>
                   <h6 id="inicio">Tendencias</h6></a></li>
               <li class="subs"><a id="subscriptions" href="#"><i class="material-icons subscriptions">subscriptions</i>
-                  <h6 id="inicio">Subscripciones</h6></a></li>
+                  <h6 id="inicio">Suscripciones</h6></a></li>
               <div class="divider"></div>
               <li class="biblioteca"><a id="subscriptions" href="#"><i class="material-icons biblioteca">folder</i>
                   <h6 id="inicio">Biblioteca</h6></a></li>
@@ -30,7 +29,7 @@
               <li class="mastarde"><a id="subscriptions" href="#"><i class="material-icons mastarde">watch_later</i>
                   <h6 id="inicio">Ver más tarde</h6></a></li>
               <li class="megusta"><a id="subscriptions" href="#"><i class="material-icons megusta">thumb_up</i>
-
+                  <h6 id="inicio">Videos que gustaron</h6></a></li>
               <div class="divider"></div>
               <li>
                 <p class="subheader">SUSCRIPCIONES</p>
@@ -39,33 +38,24 @@
               <li>
                 <p class="subheader">MÁS DE YOUTUBE</p>
               </li>
+              <li class="yp"><a id="subscriptions" href="#"><i class="material-icons yp">play_circle_filled</i>
+                  <h6 id="inicio">Youtube premium</h6></a></li>
+              <li class="theaters"><a id="subscriptions" href="#"><i class="material-icons theaters">theaters</i>
+                  <h6 id="inicio">Peliculas de Youtube </h6></a></li>
+              <div class="divider"></div>
+              <li class="settings"><a id="subscriptions" href="#"><i class="material-icons settings">settings</i>
+                  <h6 id="inicio">Herramientas</h6></a></li>
+              <li class="help"><a id="subscriptions" href="#"><i class="material-icons help">help</i>
+                  <h6 id="inicio">Ayuda</h6></a></li>
+              <li class="feedback"><a id="subscriptions" href="#"><i class="material-icons feedback">feedback</i>
+                  <h6 id="inicio">Enviar sugerencias</h6></a></li>
+              <div class="divider"></div>
+              <div class="copyright">
+                <h6>Información PrensaDerechos de autor Contacto Creadores Publicidad Desarrolladores</h6>
+                <h6>TérminosPrivacidadPolítica y seguridadProbar las nuevas funciones</h6>
+                <h6>© 2019 YouTube, LLC</h6>
+              </div>
             </ul><a class="sidenav-trigger" href="#" data-target="slide-out"><i class="material-icons menu">menu  </i></a>
-            <ul class="sidenav sidenav-fixed z-depth-0 hide-on-small-only" id="slide-out">
-              <li class="home"><a id="home" href="#!"><i class="material-icons home icono">home</i>
-                  <h6 id="inicio">Inicio</h6></a></li>
-              <li class="tendencias"><a id="trends" href="#!"><i class="material-icons trends icono">whatshot</i>
-                  <h6 id="inicio">Tendencias</h6></a></li>
-              <li class="subs"><a id="subscriptions" href="#"><i class="material-icons subscriptions icono">subscriptions</i>
-                  <h6 id="inicio">Suscripciones</h6></a></li>
-              <div class="divider"></div>
-              <li class="biblioteca"><a id="subscriptions" href="#"><i class="material-icons biblioteca icono">folder</i>
-                  <h6 id="inicio">Biblioteca</h6></a></li>
-              <li class="historial"><a id="subscriptions" href="#"><i class="material-icons historial icono">history</i>
-                  <h6 id="inicio">Historial</h6></a></li>
-              <li class="mastarde"><a id="subscriptions" href="#"><i class="material-icons mastarde icono">watch_later</i>
-                  <h6 id="inicio">Ver más tarde</h6></a></li>
-              <li class="megusta"><a id="subscriptions" href="#"><i class="material-icons megusta icono">thumb_up</i>
-                  <h6 id="inicio">Vídeos que te gustaron</h6></a></li>
-              <div class="divider"></div>
-              <li>
-                <p class="subheader">SUSCRIPCIONES</p>
-              </li>
-              <div class="divider"></div>
-              <li>
-                <p class="subheader">MÁS DE YOUTUBE</p>
-              </li>
-            </ul><a class="sidenav-trigger" href="#" data-target="slide-out"></a>
-
           </div>
           <div class="col s2" id="container2"><img class="left-align" id="logo" src="img/logo.png" alt=""/></div>
           <div class="col s2 m2 l3 xl3 hide-on-med-only" id="container3"></div>
@@ -81,7 +71,7 @@
           <div class="col s3" id="container6">
             <div class="section">
               <div class="col s2 m3 hide-on-med-and-up show-on-small"><a class="material-icons" id="videocall" href="#">search</a></div>
-              <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">video_call</a></div>
+              <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="subir_video">video_call</a></div>
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">blur_on</a></div>
               <div class="col s2 m3 hide-on-small-only xl3"><a class="material-icons" id="videocall" href="#">notifications</a></div>
               <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown2">account_circle
@@ -128,8 +118,6 @@
           document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.sidenav');
           var instances = M.Sidenav.init(elems);
-        
-      
       });
       $('.dropdown-trigger').dropdown();
     </script>
