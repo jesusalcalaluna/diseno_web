@@ -128,8 +128,8 @@
         <div class="col s1"></div>
         <div class="col s6">
           <div class="row">
-            <div class="col s3"></div>
-            <div class="col s9" style="background-color:#000">
+            <div class="col s2"></div>
+            <div class="col s10" style="background-color:#000">
               <center>
                 <video class="responsive-video" controls="controls">
                   <source src="img/videoplayback.mp4" type="video/mp4"/>
@@ -138,20 +138,42 @@
             </div>
           </div>
           <div class="row">
-            <div class="col s3"></div><b style="font-size:20px">Gallina pifi</b>
+            <div class="col s2"></div><b style="font-size:20px">Gallina pifi</b>
           </div>
           <div class="row" style="margin-top:-20px">
-            <div class="col s3"></div>
+            <div class="col s2"></div>
             <div class="col s5">
               <p style="color:#777; font-size: 13px">275,000,000 visualizaciones - 03 nov. 2019</p>
             </div>
             <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px;">thumb_up</i></a></div>
             <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px;">thumb_down</i></a></div>
             <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px; transform: scale(-1,1)">reply</i></a></div>
+            <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px">playlist_add</i></a></div>
+            <div class="col s1" style="margin-top: 8px"><a class="dropdown-trigger" href="#" data-target="dropdown1"><i class="material-icons" style="font-size: 23px">more_horiz</i></a>
+              <u class="dropdown-content" id="dropdown1">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+              </u>
+              <script href="js/app.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+              <script href="js/materialize.js"></script>
+              <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.dropdown-trigger');
+                    var instances = M.Sidenav.init(elems);
+                });
+              </script>
+            </div>
+          </div>
+          <div class="row" style="margin-top:-10px">
+            <div class="col s2"></div>
+            <div class="col s10">
+              <center>
+                <hr/>
+              </center>
+            </div>
           </div>
         </div>
         <div class="col s1"></div>
-        <hr/>
         <div class="col s4" style="position:relative;">
           <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
             <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
