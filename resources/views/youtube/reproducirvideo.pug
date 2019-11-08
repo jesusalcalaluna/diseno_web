@@ -22,11 +22,6 @@ html(lang="en")
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
         });
-    script.
-            document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.dropdown1');
-            var instances = M.Sidenav.init(elems);
-        });
     //- video
     div(style="background-color: #F9F9F9; margin-top:-50px")
     div(style="background-color: #F9F9F9; margin-top:50px; width:100%; height:50px")
@@ -61,18 +56,27 @@ html(lang="en")
                         a(href="#")
                             i(class="material-icons" style="font-size: 23px") playlist_add
                     div(class="col s1" style="margin-top: 8px")
-                        a(class="dropdown-trigger" href="#" data-target='dropdown1')
-                            i(class="material-icons" style="font-size: 23px") more_horiz
-                        u(id='dropdown1' class='dropdown-content')
+                        u(id='popo' class='dropdown-content')
                             li
                                 a(href="#!") one
                             li
                                 a(href="#!") two
+                        a(class="popo-trigger" href="#" data-target='popo')
+                            i(class="material-icons" style="font-size: 23px") more_horiz
+                        script.
+                                document.addEventListener('DOMContentLoaded', function() {
+                                var elems = document.querySelectorAll('.popo-trigger');
+                                var instances = M.Sidenav.init(elems);
+                            });
                 div(class="row" style="margin-top:-10px")
                     div(class="col s2")
                     div(class="col s10")
                         center
                             hr
+                div(class="row")
+                    div(class="col s2")
+                    div(class="col s1")
+                        img(src="img/cabeza_de_pin.jpg" style="max-height:50px; border-radius: 40px")
             div(class="col s1")
             div(class="col s4" style="position:relative;")
                 //- div(class="card horizontal", style="max-height:16%")
