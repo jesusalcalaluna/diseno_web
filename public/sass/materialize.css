@@ -9099,6 +9099,7 @@ input[type=range]::-ms-thumb {
     left: auto;
     right: auto;
 }
+
 .p1{
     display: block;
     width: 417px;
@@ -9107,13 +9108,29 @@ input[type=range]::-ms-thumb {
     background-color: var(--yt-sidebar-background);
     overflow: auto;
 }
+
 .p2{
     height: 101px;
     align-items: center;
     cursor: default;
 }
+
 .lvimg{
     max-width: 100%;
     background: #212121;
     height: 199.75px;
+    margin-bottom: 16px;
+}
+
+.title-yt-vl{
+    word-break: break-word;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.title2-yt-vl{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
 }
