@@ -1,0 +1,170 @@
+
+<html lang="en">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="sass/youtube.css" rel="stylesheet"/>
+  <link href="sass/sidenav.css" rel="stylesheet"/>
+  <title>YouTube</title>
+  <body>
+    <div>
+      <center>
+        <div class="row">
+          <div class="col s1" id="container1">
+            <ul class="sidenav" id="slide-out">
+              <li:hover class="ppp"><a class="sidenav-close" href="#"><i class="material-icons">menu </i></a><img id="logoside" src="img/logo.png" alt=""/></li:hover>
+              <li class="home"><a id="home" href="#!"><i class="material-icons home">home</i>
+                  <h6 id="inicio">Inicio</h6></a></li>
+              <li class="tendencias"><a id="trends" href="#!"><i class="material-icons trends">whatshot</i>
+                  <h6 id="inicio">Tendencias</h6></a></li>
+              <li class="subs"><a id="subscriptions" href="#"><i class="material-icons subscriptions">subscriptions</i>
+                  <h6 id="inicio">Subscripciones</h6></a></li>
+              <div class="divider"></div>
+              <li class="biblioteca"><a id="subscriptions" href="#"><i class="material-icons biblioteca">folder</i>
+                  <h6 id="inicio">Biblioteca</h6></a></li>
+              <li class="historial"><a id="subscriptions" href="#"><i class="material-icons historial">history</i>
+                  <h6 id="inicio">Historial</h6></a></li>
+              <li class="mastarde"><a id="subscriptions" href="#"><i class="material-icons mastarde">watch_later</i>
+                  <h6 id="inicio">Ver más tarde</h6></a></li>
+              <li class="megusta"><a id="subscriptions" href="#"><i class="material-icons megusta">thumb_up</i>
+                  <h6 id="inicio">Vídeos que te gustaron</h6></a></li>
+            </ul><a class="sidenav-trigger" href="#" data-target="slide-out"><i class="material-icons menu">menu    </i></a>
+          </div>
+          <div class="col s2" id="container2"><img class="left-align" id="logo" src="img/logo.png" alt=""/></div>
+          <div class="col s2 m2 l3 xl3 hide-on-med-only" id="container3"></div>
+          <div class="col hide-on-small-only" id="container4">
+            <div class="row">
+              <div class="input-field col m6 l7 xl9">
+                <input id="search" type="search" placeholder="Search"/>
+              </div>
+              <div class="input-field col m2 pulse"><i class="waves-effect material-icons btn-gray search" id="btnsearch">search</i></div>
+            </div>
+          </div>
+          <div class="colm2 hide-on-med-down" id="container5"></div>
+          <div class="col s3" id="container6">
+            <div class="section">
+              <div class="col s2 m3 hide-on-med-and-up show-on-small"><a class="material-icons" id="videocall" href="#">search</a></div>
+              <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="verificarcuenta">video_call</a></div>
+              <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">blur_on</a></div>
+              <div class="col s2 m3 hide-on-small-only xl3"><a class="material-icons" id="videocall" href="#">notifications</a></div>
+              <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown2">account_circle
+                  <ul class="dropdown-content" id="dropdown2"><img style="width: 290px;" src="img/profile.JPG"/>
+                    <div style="padding-top: 8px;"><a>
+                        <p style="padding-left: 38px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="">Administra tu cuenta Google</p></a></div>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Tu cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">monetization_on</i>
+                        <p style=" color: black; font-size: 15px;">Membresias pagadas</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">youtube Studio(BETA)</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                        <p style=" color: black; font-size: 15px;">Cambiar cuenta</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">open_in_new</i>
+                        <p style=" color: black; font-size: 15px;">Salir</p></a></li>
+                    <div style="padding-top: 13px; padding-bottom: 8px;">
+                      <li class="divider" tabindex="-1"></li>
+                    </div>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Tema Oscuro: Activado</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">language</i>
+                        <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                        <p style=" color: black; font-size: 15px;">Configuración</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">security</i>
+                        <p style=" color: black; font-size: 15px;">Tus datos en youtube</p></a></li>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">live_help</i>
+                        <p style=" color: black; font-size: 15px;">Ayuda</p></a></li>
+                  </ul></a></div>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+      });
+    </script>
+  </body>
+  <div style="background-color: #F0F0F0; margin-top:-50px"><br/><br/><b style="padding-left: 30px;">Verificacion de la cuenta (paso 1 de 2)</b><br/>
+    <p style="padding-left: 30px;">Si verificas tu cuenta con numero de telefono no solo podras disfrutar de muchas otras opciones de YouTube,sino que asi nos aseguraremos de que no eres un robot suplantando a un humano. <a href="google.com">Mas informacion.</a></p><b style="padding-left: 30px;">Selecciona tu pais.</b>
+    <div class="input-field col s12" style="padding-left: 30px;">
+      <select class="browser-default" style="width: 380px; height: 37px;">
+        <option value="0">Mexico</option>
+        <option value="1">USA</option>
+        <option value="3">Colombia</option>
+        <option value="4">Venezuela</option>
+        <option value="5">Peru</option>
+        <option value="6">Chile</option>
+        <option value="7">Argentina</option>
+        <option value="8">España</option>
+        <option value="9">Alemania</option>
+        <option value="10">Inglaterra</option>
+        <option value="11">Francia</option>
+        <option value="12">Italia</option>
+        <option value="13">Polonia</option>
+        <option value="14">Noruega</option>
+        <option value="15">Suiza</option>
+        <option value="16">Suicia</option>
+        <option value="17">Arabia</option>
+        <option value="18">Japon</option>
+        <option value="19">China</option>
+        <option value="20">Korea del sur</option>
+      </select>
+    </div><b style="padding-left: 30px;">¿como prefieres que te enviemos el codigo de verificacion?</b><br/>
+    <label style="padding-left: 25px;">
+      <input name="radio1" type="radio"/><span style="color:black">LLamada con mensaje de voz automatico</span>
+    </label><br/>
+    <label style="padding-left: 25px;">
+      <input name="radio2" type="radio"/><span style="color:black">Mensaje de texto con el codigo de verificacion</span>
+    </label><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  </div>
+  <div style="background-color: #FFFFFF; margin-top:2px"><img id="logo_verif" src="img/logo.png"/>
+    <select class="browser-default" style="width: 170px; height: 34px; position:absolute; right: 1180px; top: 650px; background:#f7f7f7;">
+      <option value="0">Idioma: Espanol</option>
+      <option value="1">Ingles</option>
+      <option value="3">Frances</option>
+    </select>
+    <select class="browser-default" style="width: 170px; height: 34px; position:absolute; right: 970px; top: 650px; background:#f7f7f7;">
+      <option value="0">Ubicacion: Mexico</option>
+      <option value="1">USA</option>
+      <option value="3">Colombia</option>
+      <option value="4">Venezuela</option>
+      <option value="5">Peru</option>
+      <option value="6">Chile</option>
+      <option value="7">Argentina</option>
+      <option value="8">España</option>
+      <option value="9">Alemania</option>
+      <option value="10">Inglaterra</option>
+      <option value="11">Francia</option>
+      <option value="12">Italia</option>
+      <option value="13">Polonia</option>
+      <option value="14">Noruega</option>
+      <option value="15">Suiza</option>
+      <option value="16">Suicia</option>
+      <option value="17">Arabia</option>
+      <option value="18">Japon</option>
+      <option value="19">China</option>
+      <option value="20">Korea del sur  </option>
+    </select>
+    <select class="browser-default" style="width: 170px; height: 34px; position:absolute; right: 760px; top: 650px; background:#f7f7f7;">
+      <option value="0">Modo restringido: NO</option>
+      <option value="1">Modo restringido: SI</option>
+    </select><a class="waves-effect waves-light btn" style="width: 130px; height: 34px; position:absolute; right: 570px; top: 650px; background:#f2f2f2; color: black;">Historial</a><a class="waves-effect waves-light btn" style="width: 130px; height: 34px; position:absolute; right: 400px; top: 650px; background:#f2f2f2; color: black;">Ayuda</a><a href="#" style="position:absolute; right: 1410px; top: 705px; "><b style="color:black;">Informacion</b></a><a href="#" style="position:absolute; right: 1330px; top: 705px; "><b style="color:black;">Prensa</b></a><a href="#" style="position:absolute; right: 1160px; top: 705px; "><b style="color:black;">Derechos de autor</b></a><a href="#" style="position:absolute; right: 1060px; top: 705px; "><b style="color:black;">Creadores</b></a><a href="#" style="position:absolute; right: 950px; top: 705px; "><b style="color:black;">Publicidad</b></a><a href="#" style="position:absolute; right: 800px; top: 705px; "><b style="color:black;">Desarrolladores</b></a><a href="#" style="position:absolute; right: 1445px; top: 717px; ">
+      <p style="color:black; font-size:13px;">Terminos</p></a><a href="#" style="position:absolute; right: 1360px; top: 717px; ">
+      <p style="color:black; font-size:13px;">Privacidad</p></a><a href="#" style="position:absolute; right: 1220px; top: 717px; ">
+      <p style="color:black; font-size:13px;">Politicas y seguridad</p></a><a href="#" style="position:absolute; right: 1090px; top: 717px; ">
+      <p style="color:black; font-size:13px;">Enviar Sugerencias</p></a><a href="#" style="position:absolute; right: 900px; top: 717px; ">
+      <p style="color:black; font-size:13px;">Probar las nuevas funciones</p></a>
+  </div>
+</html>

@@ -31,16 +31,16 @@ html(lang="en")
             div(class="col s1")
             div(class="col s6")
                 div(class="row")
-                    div(class="col s3")
-                    div(class="col s9" style="background-color:#000")
+                    div(class="col s2")
+                    div(class="col s10" style="background-color:#000")
                         center
                             video(class="responsive-video" controls)
                                 source(src="img/videoplayback.mp4" type="video/mp4")
                 div(class="row")
-                    div(class="col s3")
+                    div(class="col s2")
                     b(style="font-size:20px") Gallina pifi
                 div(class="row" style="margin-top:-20px")
-                    div(class="col s3")
+                    div(class="col s2")
                     div(class="col s5")
                         p(style="color:#777; font-size: 13px") 275,000,000 visualizaciones - 03 nov. 2019
                     div(class="col s1" style="margin-top: 8px")
@@ -51,7 +51,32 @@ html(lang="en")
                             i(class="material-icons" style="font-size: 23px;") thumb_down
                     div(class="col s1" style="margin-top: 8px")
                         a(href="#")
-                            i(class="material-icons" style="font-size: 23px;") reply
+                            i(class="material-icons" style="font-size: 23px; transform: scale(-1,1)") reply
+                    div(class="col s1" style="margin-top: 8px")
+                        a(href="#")
+                            i(class="material-icons" style="font-size: 23px") playlist_add
+                    div(class="col s1" style="margin-top: 8px")
+                        u(id='popo' class='dropdown-content')
+                            li
+                                a(href="#!") one
+                            li
+                                a(href="#!") two
+                        a(class="popo-trigger" href="#" data-target='popo')
+                            i(class="material-icons" style="font-size: 23px") more_horiz
+                        script.
+                                document.addEventListener('DOMContentLoaded', function() {
+                                var elems = document.querySelectorAll('.popo-trigger');
+                                var instances = M.Sidenav.init(elems);
+                            });
+                div(class="row" style="margin-top:-10px")
+                    div(class="col s2")
+                    div(class="col s10")
+                        center
+                            hr
+                div(class="row")
+                    div(class="col s2")
+                    div(class="col s1")
+                        img(src="img/cabeza_de_pin.jpg" style="max-height:50px; border-radius: 40px")
             div(class="col s1")
             div(class="col s4" style="position:relative;")
                 //- div(class="card horizontal", style="max-height:16%")

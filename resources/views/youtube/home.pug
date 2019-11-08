@@ -8,20 +8,20 @@ html(lang="en")
   body()
 
     +navbar_component
-
-
-      <p style="margin-top: 50rem"> asdfasd </p>
+ 
     //- Compiled and minified JavaScript
     script(href="js/app.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
     script(href="js/materialize.js")
     //- INICIALIZAR SIDENAV
     script.
             document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
+            var elem = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elem);
         });
-        $('.dropdown-trigger').dropdown();
+        //- $('.dropdown-trigger').dropdown();
     +videos_component
-    
