@@ -1,31 +1,37 @@
 #container-navbar {
   padding: 0;
-}
-
-#container1 {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: white;
   width: auto;
 }
 
-#container2 {
+#container1nav {
+  width: auto;
+  height: auto;
+}
+
+#container2nav {
   width: auto;
 }
 
-#container3 {
-  width: 10%;
+#container3nav {
+  width: 270px;
 }
 
-#container4 {
-  width: 50%;
+#container4nav {
+  width: 600px;
 }
 
-#container5 {
-  width: 30%;
+#container5nav {
+  width: 500px;
 }
 
-#container6 {
+#container6nav {
   position: absolute;
   right: 0;
-  z-index: 0;
+  z-index: 100;
   width: auto;
 }
 
@@ -52,6 +58,8 @@
   font-size: 17px;
   margin-left: 50px;
   padding-right: 15px;
+  margin-top: 15px;
+  padding-bottom: -50px;
 }
 
 #search::-webkit-input-placeholder {
@@ -90,6 +98,8 @@
   padding-right: 15px;
   height: 27.5px;
   margin-left: 15px;
+  margin-top: 15px;
+  padding-bottom: -50px;
 }
 
 .material-icons.search {
@@ -106,6 +116,18 @@
   color: blue;
   margin-top: -6px;
   margin-right: 25px;
+}
+
+@media screen and (max-width: 790px) {
+  #container3nav {
+    width: 250px;
+  }
+  #container4nav {
+    width: 350px;
+  }
+  #container5nav {
+    width: 250px;
+  }
 }
 
 .my-fixed-item {
