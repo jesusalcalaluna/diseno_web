@@ -26,25 +26,33 @@ html(lang="en")
                                 b Más información
                     .container#buttons(class="col s12")
                         .container(class="col s7")
-                            a#txt6(href="#") Crear cuenta
+                            a#txt6(class="dropdown-trigger" href="#!" data-target="dropdown1") Crear cuenta
+
+                            ul(id='dropdown1' class='dropdown-content')
+                                li
+                                    a(href="/register") Para mi
+                                li
+                                    a(href="/register") Para administrar mi negocio
+
                         .container(class="col s5")
-                            button#txt7(class="btn")
+                            a#txt7(class="btn submit" href="/")
                                 b Siguiente
         .container(class="footer col s12")
             .row
                 .container(class="footer2 col s11 m6")
-                    ul(id="dropdown2" class="dropdown-content")
-                        li
-                            a(href="#!") asdf
-                                span(class="badge")
-                        li
-                            a(href="#!")
-                                span(class="badge")
-                        li
-                            a(href="#!")
-                                span(class="badge")
+
                     a(class="dropdown-trigger" href="#!" data-target="dropdown2") Español (Latinoamerica)
                         i#dropdown2btn(class="material-icons right") arrow_drop_down
+
+                    ul(id='dropdown2' class='dropdown-content')
+                        li
+                            a(href="#!") one
+                        li
+                            a(href="#!") one
+                        li
+                            a(href="#!") one
+                    
+                    
                 
                 .container(class="footer3 col s12 m6")
                 
@@ -54,10 +62,6 @@ html(lang="en")
 
                     a#txt10(class="col s3") Condiciones
 
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        script.
-            
-            $('.dropdown-trigger').dropdown();
+    script.
+        $('.dropdown-trigger').dropdown();
         
