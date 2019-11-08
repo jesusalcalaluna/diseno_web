@@ -1,33 +1,37 @@
 #container-navbar {
   padding: 0;
-}
-
-#container1 {
-  width: auto;
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
-#container2 {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: white;
   width: auto;
 }
 
-#container3 {
-  width: 10%;
+#container1nav {
+  width: auto;
+  height: auto;
 }
 
-#container4 {
-  width: 50%;
+#container2nav {
+  width: auto;
 }
 
-#container5 {
-  width: 30%;
+#container3nav {
+  width: 271px;
 }
 
-#container6 {
+#container4nav {
+  width: 600px;
+}
+
+#container5nav {
+  width: 500px;
+}
+
+#container6nav {
   position: absolute;
   right: 0;
-  z-index: 0;
+  z-index: 100;
   width: auto;
 }
 
@@ -54,6 +58,8 @@
   font-size: 17px;
   margin-left: 50px;
   padding-right: 15px;
+  margin-top: 15px;
+  padding-bottom: -50px;
 }
 
 #search::-webkit-input-placeholder {
@@ -92,6 +98,8 @@
   padding-right: 15px;
   height: 27.5px;
   margin-left: 15px;
+  margin-top: 15px;
+  padding-bottom: -50px;
 }
 
 .material-icons.search {
@@ -108,6 +116,18 @@
   color: blue;
   margin-top: -6px;
   margin-right: 25px;
+}
+
+@media screen and (max-width: 790px) {
+  #container3nav {
+    width: 250px;
+  }
+  #container4nav {
+    width: 350px;
+  }
+  #container5nav {
+    width: 250px;
+  }
 }
 
 .my-fixed-item {
@@ -838,15 +858,17 @@ position-fixed {
 
 div #hola {
   width: 700px;
-  height: 400px;
+  height: 340px;
   margin-left: 200px;
+  position: fixed;
   text-align: center;
 }
 
 #partebaja {
   width: 700px;
   height: 35%;
-  margin-top: 20px;
+  margin-top: 360px;
+  position: fixed;
   margin-left: 200px;
 }
 
@@ -877,35 +899,35 @@ h5 {
 
 #implementacion {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 35px;
   color: gray;
 }
 
 #imagen {
   width: 300px;
   height: 150px;
-  float: right;
-  margin-right: 130px;
-  margin-top: -415px;
+  margin-top: 8px;
+  left: 920px;
+  position: fixed;
 }
 
 #live {
   width: 300px;
-  height: 200px;
-  float: right;
-  margin-right: 130px;
-  margin-top: -250px;
+  height: 180px;
+  margin-top: 170px;
+  left: 920px;
+  position: fixed;
 }
 
 #estrenos {
   width: 300px;
-  height: 250px;
-  float: right;
-  margin-right: 130px;
-  margin-top: -35px;
+  height: 252px;
+  margin-top: 363px;
+  left: 920px;
+  position: fixed;
 }
 
-#estrenos2, #live2 {
+#estrenos2 #live2 {
   margin-top: 80%;
   padding: 10px;
 }
@@ -914,7 +936,7 @@ h5 {
   margin-top: 10%;
 }
 
-#estrenos3, #live3 {
+#estrenos3 #live3 {
   margin-top: 15%;
 }
 
