@@ -1,3 +1,7 @@
+#container-navbar {
+  padding: 0;
+}
+
 #container1 {
   width: auto;
 }
@@ -25,23 +29,15 @@
   width: auto;
 }
 
-.material-icons.menu {
+#menu {
   color: darkgray;
   margin-top: 15px;
-  margin-left: 25%;
 }
 
-#logo {
+#logonavbar {
   height: 17px;
   margin-top: 20px;
 }
-
-#logo_verif {
-  height: 22px;
-  margin-top: 25px;
-  margin-left: 40px;
-}
-
 
 #search {
   width: 100%;
@@ -107,7 +103,7 @@
 
 .material-icons.perfil {
   font-size: 35px;
-  color: #f3501e;
+  color: blue;
   margin-top: -6px;
   margin-right: 25px;
 }
@@ -836,5 +832,91 @@ position-fixed {
 
 #txt4_susc {
   font-size: 15px;
+}
+
+div #hola {
+  width: 700px;
+  height: 400px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+#partebaja {
+  width: 700px;
+  height: 35%;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.card #file {
+  margin-left: 25%;
+  position: absolute;
+  height: 100%;
+  color: transparent;
+  opacity: 0;
+}
+
+.card #upload {
+  margin-left: -3%;
+  display: relative;
+}
+
+#div_file {
+  width: 20%;
+  position: relative;
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+h5 {
+  text-align: center;
+  color: gray;
+}
+
+#implementacion {
+  text-align: center;
+  margin-top: 60px;
+  color: gray;
+}
+
+#imagen {
+  width: 300px;
+  height: 150px;
+  float: right;
+  margin-right: 130px;
+  margin-top: -415px;
+}
+
+#live {
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-right: 130px;
+  margin-top: -250px;
+}
+
+#estrenos {
+  width: 300px;
+  height: 250px;
+  float: right;
+  margin-right: 130px;
+  margin-top: -35px;
+}
+
+#estrenos2, #live2 {
+  margin-top: 80%;
+  padding: 10px;
+}
+
+#imagen2 {
+  margin-top: 10%;
+}
+
+#estrenos3, #live3 {
+  margin-top: 15%;
+}
+
+#texto {
+  color: gray;
 }
 /*# sourceMappingURL=youtube.css.map */
