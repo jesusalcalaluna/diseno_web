@@ -9089,7 +9089,7 @@ input[type=range]::-ms-thumb {
     margin-left: auto;
     left: auto;
     right: auto;
-    background: #26c6da;
+    background: white;
     padding-left: 75px;
 }
 
@@ -9098,6 +9098,7 @@ input[type=range]::-ms-thumb {
     margin-left: auto;
     left: auto;
     right: auto;
+    background: #F1F1F1;
 }
 
 .p1{
@@ -9117,20 +9118,19 @@ input[type=range]::-ms-thumb {
 
 .lvimg{
     max-width: 100%;
-    background: #212121;
     height: 199.75px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .title-yt-vl{
     word-break: break-word;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 3rem;
 }
 
 .title2-yt-vl{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 2.1rem;
 }
