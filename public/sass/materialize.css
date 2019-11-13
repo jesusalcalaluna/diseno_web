@@ -9094,11 +9094,13 @@ input[type=range]::-ms-thumb {
 }
 
 .row .col.y2 {
-    width: auto;
+    width: 850px;
     margin-left: auto;
     left: auto;
     right: auto;
     background: #F1F1F1;
+    display: table;
+    margin-top: 24px;
 }
 
 .p1{
@@ -9111,9 +9113,11 @@ input[type=range]::-ms-thumb {
 }
 
 .p2{
-    height: 101px;
+    height: 90px;
     align-items: center;
     cursor: default;
+    line-height:normal;
+    vertical-align:middle;
 }
 
 .lvimg{
@@ -9133,4 +9137,7 @@ input[type=range]::-ms-thumb {
     font-size: 1rem;
     font-weight: 400;
     line-height: 2.1rem;
+}
+.center{
+    vertical-align: middle;
 }

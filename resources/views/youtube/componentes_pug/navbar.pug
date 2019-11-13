@@ -1,7 +1,7 @@
 mixin navbar_component
   div#container-navbar
     center
-      div(class="row")
+      div(class="row" style="margin-bottom:0px;")
         div#container1nav(class="col s1")
           +sidenav_component
         div#container2nav(class="col s2")
@@ -10,7 +10,7 @@ mixin navbar_component
         div#container3nav(class="col s2 m2 l3 xl3 hide-on-med-only")
 
         div#container4nav(class="col hide-on-small-only")
-          div(class="row")
+          div(class="row" style="margin-bottom:0px;")
             div(class="col m6 l7 xl9")
               input#search(type="search" placeholder="Search")
             div(class="col m2")
