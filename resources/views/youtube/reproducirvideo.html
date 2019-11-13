@@ -8,14 +8,20 @@
   <link href="sass/youtube.css" rel="stylesheet"/>
   <link href="sass/sidenav.css" rel="stylesheet"/>
   <link href="sass/subir_video.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <title>YouTube</title>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script href="js/materialize.js"></script>
+  </body>
   <body>
     <div id="container-navbar">
       <center>
         <div class="row">
-          <div class="col s1" id="container1">
+          <div class="col s1" id="container1nav">
             <ul class="sidenav" id="slide-out">
-              <li:hover class="ppp"><a class="sidenav-close" href="#"><i class="material-icons">menu </i></a><img id="logoside" src="img/logo.png" alt=""/></li:hover>
+              <li:hover class="ppp"><a class="sidenav-close" href="/"><i class="material-icons">menu </i></a><a href="/"><img id="logoside" src="img/logo.png" alt=""/></a></li:hover>
               <li class="home"><a id="home" href="#!"><i class="material-icons home">home</i>
                   <h6 id="inicio">Inicio</h6></a></li>
               <li class="tendencias"><a id="trends" href="#!"><i class="material-icons trends">whatshot</i>
@@ -58,54 +64,54 @@
               </div>
             </ul><a class="sidenav-trigger" href="#" data-target="slide-out"><i class="material-icons menu">menu  </i></a>
           </div>
-          <div class="col s2" id="container2"><a href="/"><img class="left-align" id="logonavbar" src="img/logo.png" alt=""/></a></div>
-          <div class="col s2 m2 l3 xl3 hide-on-med-only" id="container3"></div>
-          <div class="col hide-on-small-only" id="container4">
+          <div class="col s2" id="container2nav"><a href="/"><img class="left-align" id="logonavbar" src="img/logo.png" alt=""/></a></div>
+          <div class="col s2 m2 l3 xl3 hide-on-med-only" id="container3nav"></div>
+          <div class="col hide-on-small-only" id="container4nav">
             <div class="row">
-              <div class="input-field col m6 l7 xl9">
+              <div class="col m6 l7 xl9">
                 <input id="search" type="search" placeholder="Search"/>
               </div>
-              <div class="input-field col m2 pulse"><i class="waves-effect material-icons btn-gray search" id="btnsearch">search</i></div>
+              <div class="col m2"><i class="waves-effect material-icons btn-gray search" id="btnsearch">search</i></div>
             </div>
           </div>
-          <div class="colm2 hide-on-med-down" id="container5"></div>
-          <div class="col s3" id="container6">
+          <div class="col m2 hide-on-med-down" id="container5nav"></div>
+          <div class="col s3" id="container6nav">
             <div class="section">
               <div class="col s2 m3 hide-on-med-and-up show-on-small"><a class="material-icons" id="videocall" href="#">search</a></div>
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="subir_video">video_call</a></div>
               <div class="col s2 m3 xl2"><a class="material-icons" id="videocall" href="#">blur_on</a></div>
               <div class="col s2 m3 hide-on-small-only xl3"><a class="material-icons" id="videocall" href="#">notifications</a></div>
-              <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown2">account_circle
-                  <ul class="dropdown-content" id="dropdown2"><img style="width: 290px;" src="img/profile.JPG"/>
-                    <div style="padding-top: 8px;"><a>
-                        <p style="padding-left: 38px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="">Administra tu cuenta Google</p></a></div>
-                    <div style="padding-top: 13px; padding-bottom: 8px;">
+              <div class="col s2 m2"><a class="material-icons perfil dropdown-trigger" id="perfil" data-target="dropdown3" style="width: 305px; margin-left: -150px">account_circle
+                  <ul class="dropdown-content" id="dropdown3"><img style="width: 290px;  margin-left: 100px;" src="img/profile.JPG"/>
+                    <div style="padding-top: 2px;"><a>
+                        <p style="margin-left: -55px; color: #065FD5; font-size: 14.5px; font-weight: 500" href="">Administra tu cuenta Google</p></a></div>
+                    <div style="padding-top: 5px; padding-bottom: 5px;">
                       <li class="divider" tabindex="-1"></li>
                     </div>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px; margin-top:15px;">account_box</i>
                         <p style=" color: black; font-size: 15px;">Tu cuenta</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">monetization_on</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">monetization_on</i>
                         <p style=" color: black; font-size: 15px;">Membresias pagadas</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">settings</i>
                         <p style=" color: black; font-size: 15px;">youtube Studio(BETA)</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">account_box</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">account_box</i>
                         <p style=" color: black; font-size: 15px;">Cambiar cuenta</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">open_in_new</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">open_in_new</i>
                         <p style=" color: black; font-size: 15px;">Salir</p></a></li>
                     <div style="padding-top: 13px; padding-bottom: 8px;">
                       <li class="divider" tabindex="-1"></li>
                     </div>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">brightness_4</i>
                         <p style=" color: black; font-size: 15px;">Tema Oscuro: Activado</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">brightness_4</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">brightness_4</i>
                         <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">language</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">language</i>
                         <p style=" color: black; font-size: 15px;">Idioma: Español</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">settings</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">settings</i>
                         <p style=" color: black; font-size: 15px;">Configuración</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">security</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">security</i>
                         <p style=" color: black; font-size: 15px;">Tus datos en youtube</p></a></li>
-                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;">live_help</i>
+                    <li><a href=""><i class="material-icons" style="color: #9b9b9b; font-size: 23px;  margin-top:15">live_help</i>
                         <p style=" color: black; font-size: 15px;">Ayuda</p></a></li>
                   </ul></a></div>
             </div>
@@ -121,12 +127,22 @@
           var instances = M.Sidenav.init(elems);
       });
     </script>
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.popo');
+          var instances = M.Dropdown.init(elems);
+      });
+    </script>
+    <ul class="dropdown-content" id="pifi" style="height:2000px">
+      <li><a href="#!"><i class="material-icons" style="font-size: 23px">flag</i></a></li>
+      <li><a href="#!"><i class="material-icons" style="font-size: 23px">translate</i></a></li>
+    </ul>
     <div style="background-color: #F9F9F9; margin-top:-50px"></div>
     <div style="background-color: #F9F9F9; margin-top:50px; width:100%; height:50px"></div>
     <div style="background-color: #F9F9F9"><br/>
       <div class="row">
         <div class="col s1"></div>
-        <div class="col s6">
+        <div class="col s6" style="margin-top:50px">
           <div class="row">
             <div class="col s2"></div>
             <div class="col s10" style="background-color:#000">
@@ -149,18 +165,7 @@
             <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px;">thumb_down</i></a></div>
             <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px; transform: scale(-1,1)">reply</i></a></div>
             <div class="col s1" style="margin-top: 8px"><a href="#"><i class="material-icons" style="font-size: 23px">playlist_add</i></a></div>
-            <div class="col s1" style="margin-top: 8px">
-              <u class="dropdown-content" id="popo">
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-              </u><a class="popo-trigger" href="#" data-target="popo"><i class="material-icons" style="font-size: 23px">more_horiz</i></a>
-              <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                    var elems = document.querySelectorAll('.popo-trigger');
-                    var instances = M.Sidenav.init(elems);
-                });
-              </script>
-            </div>
+            <div class="col s1" style="margin-top: 8px"><a class="dropdown-trigger popo" href="#" data-target="pifi"><i class="material-icons" style="font-size: 23px">more_horiz</i></a></div>
           </div>
           <div class="row" style="margin-top:-10px">
             <div class="col s2"></div>
@@ -215,9 +220,7 @@
           </div>
           <div class="row" style="margin-top:-15px">
             <div class="col s8"></div>
-            <div class="col s2">
-              <button class="btn" style="background-color: #F9F9F9; color: #444">CANCELAR</button>
-            </div>
+            <div class="col s2"><a class="waves-effect waves-teal btn-flat">CANCELAR</a></div>
             <div class="col s1">
               <button class="btn" style="background-color: #00f; color: #fff">COMENTAR</button>
             </div>
@@ -225,6 +228,33 @@
         </div>
         <div class="col s1"></div>
         <div class="col s4" style="position:relative;">
+          <div class="row">
+            <div class="col s3" style="margin-top:33px">
+              <p>Siguiente</p>
+            </div>
+            <div class="col s9">
+              <div class="switch" style="margin-top:50px">
+                <label>REPRODUCCIÓN AUTOMÁTICA
+                  <input type="checkbox"/><span class="lever"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
+            <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
+                <div style="height:100px; width:180px"></div>
+                <div style="background-color: #000; height: 20%; width: 23%; margin-left:75%; margin-top:-15%; position:absolute">
+                  <center>
+                    <p style="color: #FFF; font-size:80%; margin-top:0%">00:30</p>
+                  </center>
+                </div></a></div>
+          </div>
+          <div style="height:100px; margin-top:-100px; margin-left: 190px"><a href="reproducirvideo">
+              <div style="height:100px"><b style="color: #000; font-size:15">Gallina pifi</b>
+                <p style="color: #777; margin-top:5px">Mr. pifi</p>
+                <p style="color: #777; margin-top:-15px">275 M  visualizaciones</p>
+              </div></a></div>
+          <div style="height:1px; width:80%; background-color:#aaa; margin-top:10px"></div>
           <div style="margin-top:10px"><img style="height: 100px; width: 180px" src="img/presentacionvideo.png"/>
             <div style="height: 100px; width: 180px; margin-top:-100px; position:absolute"><a href="reproducirvideo">
                 <div style="height:100px; width:180px"></div>

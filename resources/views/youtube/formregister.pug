@@ -41,22 +41,24 @@ html(lang="en")
                         .container#txt6register(class="col s7")
                             a#txt6register_a(href="#") Acceder a tu cuenta en su lugar
                         .container(class="col s1")
-                            button#btnregister(class="btn") Siguiente
+                            a#btnregister(class="btn" href="/") Siguiente
         .container(class="footer col s12")
             .row
                 .container(class="footer2 col s11 m6")
+
+                    a(class="dropdown-trigger trigger_registrar" href="#!" data-target="dropdown2register") Español (Latinoamerica)
+                        i#dropdown2btn(class="material-icons right trigger_registrar_right") arrow_drop_down
+
                     ul(id="dropdown2register" class="dropdown-content")
                         li
-                            a(href="#!") asdf
+                            a(href="#!") Español (Latinoamerica)
                                 span(class="badge")
                         li
-                            a(href="#!")
+                            a(href="#!") Español (España)
                                 span(class="badge")
                         li
-                            a(href="#!")
+                            a(href="#!") Inglés (Estados Unidos)
                                 span(class="badge")
-                    a(class="dropdown-trigger trigger_registrar" href="#!" data-target="dropdown2") Español (Latinoamerica)
-                        i#dropdown2btn(class="material-icons right trigger_registrar_right") arrow_drop_down
                 
                 .container(class="footer3 col s12 m6")
                 
@@ -66,12 +68,10 @@ html(lang="en")
 
                     a#txt10(class="col s3") Condiciones
 
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         script.
             var widthBrowser = window.outerWidth;
             var heightBrowser = window.outerHeight;
             console.log("Tamaño de la pantalla del navegador: width=" + widthBrowser + ", height=" + heightBrowser);
+            
             $('.dropdown-trigger').dropdown();
          
